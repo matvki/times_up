@@ -20,4 +20,14 @@ IT Time use <a href="https://laravel.com/">Laravel</a>, the best PHP framework t
 - Install dependancies: `composer install`
 - Install BDD (working on :construction: :octocat:)
 
-Thanks youfor being here :+1:
+## Contributing
+---
+Please, be clear on your commit messages and pull requests, empty pull request messages may be rejected withour reason.
+
+When contributing code to IT Time, you must follow the <a href="https://www.php-fig.org/psr/psr-1/">PSR coding standards</a>. The golden rule is: Imitate the existing IT Time code.
+
+## Security
+---
+If you discover any security related issues, please email m.vecchi@it-students.fr instead of using the issue tracker.
+
+**Thanks You** :+1:
