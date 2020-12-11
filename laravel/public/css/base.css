@@ -33,4 +33,15 @@ a:active {
 ul {
     list-style: none;
     padding-left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
 }
