@@ -25,7 +25,7 @@
                     <img src="img/play.png" alt="">
                 </div>
             </a>
-            <a href="#">
+            <a href="/les_regles">
                 <div>
                     <img src="img/copy.png" alt="">
                 </div>
