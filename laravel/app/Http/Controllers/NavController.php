@@ -15,6 +15,11 @@ class NavController extends Controller
     {
         return view('choose');
     }
+    
+    public function rules()
+    {
+        return view('rules');
+    }
 
     public function jeux(Request $request)
     {

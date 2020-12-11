@@ -17,4 +17,5 @@ use App\Http\Controllers\ActionController;
 
 Route::get('/', [NavController::class, 'welcome']);
 Route::get('/mode_de_jeux', [NavController::class, 'choose']);
+Route::get('/les_regles', [NavController::class, 'rules']);
 Route::post('/jeux', [NavController::class, 'jeux']);

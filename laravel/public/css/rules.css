@@ -1,0 +1,54 @@
+section {
+  text-align: center;
+}
+
+section article {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+section article ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section article ul li {
+  padding: 20px;
+}
+
+section article ul li img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+section article ul li p {
+  margin-top: 0;
+}
+
+section article .littleMore {
+  margin-top: 30px;
+  width: 70%;
+}
+
+section .after {
+  margin-top: 35px;
+  flex-direction: column;
+  align-items: center;
+}
+
+section .after a {
+  padding: 7px 10px;
+  border: 1px solid black;
+  border-radius: 50px;
+  width: 10%;
+  margin-top: 5px;
+}
+
+section .after a:hover {
+  color: white;
+  background-color: lightgray;
+  border: none;
+}
