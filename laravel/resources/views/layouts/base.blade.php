@@ -33,7 +33,7 @@
         </nav>
     </header>
     
-    <main>
+    <main class="flex">
     
         @yield('content')
     
