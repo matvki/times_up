@@ -8,18 +8,19 @@
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/header-footer.css">
+    <link rel="stylesheet" href="@yield('css')">
 </head>
 <body>
     <header>
         <nav>
-            <a href="#" class="survol">
+            <a href="/" class="survol">
                 <div>
                     <img src="img/home.png" alt="">
                 </div>
             </a>
             {{-- <img class="etc invisible" src="img/etiquette1.png" alt=""> --}}
 
-            <a href="#">
+            <a href="/mode_de_jeux">
                 <div>
                     <img src="img/play.png" alt="">
                 </div>
@@ -38,7 +39,8 @@
     
     </main>
     <footer>
-        
+
     </footer>
+    <script src="@yield('js')"></script>
 </body>
 </html>
