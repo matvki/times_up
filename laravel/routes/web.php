@@ -1,8 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ActionController;
 use App\Http\Controllers\NavController;
+use App\Http\Controllers\ActionController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,19 +15,6 @@ use App\Http\Controllers\NavController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/adminer', function () {
-    return redirect('/adminer.php');
-});
-
-Route::get('/option ', [NavController::class, 'option']);
-
-Route::post('/jouer', [NavController::class, 'play']);
-
-
-
-
-
+Route::get('/', [NavController::class, 'welcome']);
+Route::get('/mode_de_jeux', [NavController::class, 'choose']);
+Route::post('/jeux', [NavController::class, 'jeux']);

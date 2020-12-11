@@ -18,7 +18,7 @@ IT Time use <a href="https://laravel.com/">Laravel</a>, the best PHP framework t
 - Install Composer
 - Clone the repository:  `git clone https://github.com/matvki/times_up`
 - Install dependancies: `composer install`
-- Install BDD (working on :construction: :octocat:)
+- Install BDD: you have to create the database `it-time` and do `php artisan migrate` then do `php artisan db:seed`.
 
 ## Contributing
 

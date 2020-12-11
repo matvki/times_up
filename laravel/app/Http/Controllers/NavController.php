@@ -8,16 +8,18 @@ use Illuminate\Http\Request;
 
 class NavController extends Controller
 {
-    public function option()
+    public function welcome()
     {
-        return view('option');
-
-        // return view('home', ['user' => User::findOrFail($id)]);
+        return view('welcome');
     }
-    public function play(Request $request){
-        $request->nbCard=20;
-        $cardArray = Classic::selectCard($request);
-        return view('play', ['cards' => $cardArray], ['rqs' => $request]);
 
+    public function choose()
+    {
+        return view('choose');
+    }
+
+    public function jeux(Request $request)
+    {
+    return view('jeux', ['request' => $request]);
     }
 }
