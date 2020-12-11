@@ -1,0 +1,30 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+main section#panel {
+  text-align: center;
+  border: solid 10px #f1a35a;
+  background-color: black;
+  border-radius: 20px;
+  padding: 50px 10px;
+}
+
+main section#panel h2 {
+  font-size: 50px;
+  color: #f1a35a;
+}
+
+main section#panel div label {
+  color: #f1a35a;
+}
+
+main section#panel div input {
+  background-color: #f1a35a;
+  border-radius: 20px;
+}

@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Classic;
+
 
 class NavController extends Controller
 {
@@ -25,4 +27,14 @@ class NavController extends Controller
     {
     return view('jeux', ['request' => $request]);
     }
+
+    public function admin(){
+        return view('admin');
+    }
+    public function list(){
+        $cards = Classic::getAll();
+        return view('panel', ['cards' => $cards]);
+    }
+
+    
 }
