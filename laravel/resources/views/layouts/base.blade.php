@@ -13,5 +13,6 @@
         @yield('content')
     </main>
 
+    <script src="@yield('js')"></script>
 </body>
 </html>

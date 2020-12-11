@@ -1,7 +1,58 @@
-body{
-    main{
-        h1{
-            color: blue;
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+.none {
+    display: none;
+}
+body {
+    main {
+        section#title {
+            margin-top: 50px;
+            width: 1080px;
+            text-align: center;
+            border: solid 10px black;
+            padding: 20px 0;
+            background-color: rgb(241, 233, 204);
+            h1 {
+                font-size: 70px;
+                font-family: "Pacifico", cursive;
+                margin-bottom: 20px;
+            }
+            p {
+                font-size: 25px;
+                font-family: "Courgette", cursive;
+            }
+        }
+        section#form {
+            margin-top: 50px;
+            width: 1080px;
+            text-align: center;
+            border: solid 10px black;
+            padding: 50px 0;
+            background-color: rgb(241, 233, 204);
+            form {
+                article {
+                    width: 900px;
+                    margin: 0 auto 30px;
+                    div {
+                        display: flex;
+                        justify-content: center;
+                        align-items: baseline;
+                        input {
+                            margin: 0 10px;
+                        }
+                    }
+                }
+                article#team2,article#team3{
+                    div{
+                        div{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            margin: 20px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
