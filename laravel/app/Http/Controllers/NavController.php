@@ -15,4 +15,9 @@ class NavController extends Controller
     {
         return view('choose');
     }
+
+    public function jeux(Request $request)
+    {
+    return view('jeux', ['request' => $request]);
+    }
 }

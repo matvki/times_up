@@ -9,6 +9,7 @@
 </section>
 <section id="form" class="container">
     <form action="/jeux" method="post">
+    @csrf
         <article>
             <label for="nbrPlayer">Choix du nombre de participant :</label>
             <select name="nbrPlayer" id="nbrPlayer">
@@ -90,12 +91,12 @@
                 <p>Attention, veuillez a bien séparer vos prénoms par un ";" si ils ne sont pas séparés par un ";" il se peut que deux personnes soient prise pour une seule et même personne!!</p>
                 <div>
                     <div>
-                        <label for="blueTeam">Equipe bleu</label>
-                        <textarea name="blueTeam" id="blueTeam" cols="30" rows="3"></textarea>
+                        <label for="blueTeam2">Equipe bleu</label>
+                        <textarea name="blueTeam2" id="blueTeam2" cols="30" rows="3"></textarea>
                     </div>
                     <div>
-                        <label for="redTeam">Equipe rouge</label>
-                        <textarea name="redTeam" id="redTeam" cols="30" rows="3"></textarea>
+                        <label for="redTeam2">Equipe rouge</label>
+                        <textarea name="redTeam2" id="redTeam2" cols="30" rows="3"></textarea>
                     </div>
                 </div>
             </article>
@@ -104,20 +105,21 @@
                 <p>Attention, veuillez a bien séparer vos prénoms par un ";" si ils ne sont pas séparés par un ";" il se peut que deux personne soient prise pour une seule et meme personne!!</p>
                 <div>
                     <div>
-                        <label for="blueTeam">Equipe bleu</label>
-                        <textarea name="blueTeam" id="blueTeam" cols="30" rows="3"></textarea>
+                        <label for="blueTeam3">Equipe bleu</label>
+                        <textarea name="blueTeam3" id="blueTeam3" cols="30" rows="3"></textarea>
                     </div>
                     <div>
-                        <label for="redTeam">Equipe rouge</label>
-                        <textarea name="redTeam" id="redTeam" cols="30" rows="3"></textarea>
+                        <label for="redTeam3">Equipe rouge</label>
+                        <textarea name="redTeam3" id="redTeam3" cols="30" rows="3"></textarea>
                     </div>
                     <div>
-                        <label for="pinkTeam">Equipe rose</label>
-                        <textarea name="pinkTeam" id="pinkTeam" cols="30" rows="3"></textarea>
+                        <label for="pinkTeam3">Equipe rose</label>
+                        <textarea name="pinkTeam3" id="pinkTeam3" cols="30" rows="3"></textarea>
                     </div>
                 </div>
             </article>
         </div>
+        <input type="submit" value="Valider">
     </form>
 </section>
 @endsection
