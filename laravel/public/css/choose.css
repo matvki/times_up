@@ -4,8 +4,11 @@
   display: none;
 }
 
+body main {
+  padding-top: 100px;
+}
+
 body main section#title {
-  margin-top: 50px;
   width: 1080px;
   text-align: center;
   border: solid 10px black;

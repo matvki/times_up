@@ -1,4 +1,4 @@
-@extends('layouts.base');
+@extends('layouts.base')
 @section('css', '/css/welcome.css')
 @section('title','Accueil')
 
@@ -14,6 +14,6 @@
             <h2>IT Times c'est quoi ?</h2>
             <p> IT Times c'est le même principe que le jeu "Times Up". Vous n'avez pas vos cartes pour votre soirée entre copains ? Pas de panique ! IT Times est là pour vous aidez !😜</p>
         </div>
-        <a href="#"> ALLONS-Y ! </a>
+        <a href="/mode_de_jeux"> ALLONS-Y ! </a>
     </section>
 @endsection
