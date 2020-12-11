@@ -27,7 +27,7 @@
                     <p> Choisir une catégorie de carte ( Animaux, personnalité… etc)</p>
                 </li>
             </ul>
-            <p class="littleMore">Le jeu se déroulera en 3 manches. La première manche il faudra faire deviner le mot à l'aide de phrase lors de celle passer la cartes n'est pas possible. La deuxième avec un seul mot et la troisème en mimant à tes coéquipiers la cartes qui se trouve entre tes mains. Lors de la 2ème et 3ème manche il est possible de passer au mot suivant si il est trop difficile à faire deviner.</p>
+            <p class="littleMore">Le jeu se déroulera en 3 manches. La première manche il faudra faire deviner le mot à l'aide de phrase lors de celle la passer le mot n'est pas possible. La deuxième avec un seul mot et la troisième en mimant à tes coéquipiers la cartes qui se trouve entre tes mains. Lors de la 2ème et 3ème manche il est possible de passer au mot suivant si il est trop difficile à faire deviner.</p>
         </article>
         <article class="after">
             <p>Vous êtes prêt ? </p>
