@@ -1,3 +1,7 @@
+.flex {
+  display: flex;
+}
+
 header {
   width: 150px;
   height: 100vh;
@@ -11,7 +15,16 @@ header nav {
   height: 100%;
 }
 
-header nav a {
+header nav .etc {
+  height: 26px;
+  width: auto;
+  margin-left: 110px;
+  margin-top: 32px;
+  display: none;
+  position: absolute;
+}
+
+header nav div a {
   display: flex;
   height: 90px;
   width: 90px;
@@ -19,7 +32,7 @@ header nav a {
   background-image: url(/img/fond.jpg);
 }
 
-header nav a div {
+header nav div a div {
   display: flex;
   align-items: center;
   height: 100%;
@@ -27,16 +40,20 @@ header nav a div {
   justify-content: center;
 }
 
-header nav a img {
+header nav div a div img {
   height: 40px;
   width: auto;
 }
 
-header nav a:hover {
+header nav div a:hover {
   background-image: linear-gradient(rgba(255, 255, 255, 0.153), rgba(255, 255, 255, 0.153)), url(/img/fond.jpg);
   transition: all 0.9s;
 }
 
-header nav a:hover:not(:hover) {
+header nav div a:hover:not(:hover) {
   transition: 1s;
+}
+
+header nav div:hover .etc {
+  display: block;
 }
