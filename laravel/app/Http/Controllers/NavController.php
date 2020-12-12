@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
-use App\Models\CLassic;
+use App\Models\Classic;
 
 use Illuminate\Http\Request;
 
@@ -20,6 +20,7 @@ class NavController extends Controller
 
     public function jeux(Request $request)
     {
-    return view('jeux', ['request' => $request]);
+        $cardArray=Classic::selectCard($request);
+        return view('play', ['request' => $request] , ['cards' => $cardArray]);
     }
 }
