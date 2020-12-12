@@ -4,9 +4,8 @@
 
 header{
     width: 150px;
-    height: 100vh;
-
-    nav{
+    position: fixed;
+    nav {
         display: flex;
         margin-left: 2em;
         justify-content: space-around;
@@ -62,6 +61,3 @@ header{
         }
     }
 }
-
-
-

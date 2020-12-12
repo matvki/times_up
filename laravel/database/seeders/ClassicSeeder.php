@@ -1336,5 +1336,8 @@ class ClassicSeeder extends Seeder
             'card' => "les fleure du mal",
         ]];
         DB::table('classics')->insert($classics);
+        DB::table('admins')->insert([
+            'username' => "Sephorquoi",
+            'password' => "4a7d1ed414474e4033ac29ccb8653d9b",]);
     }
 }
