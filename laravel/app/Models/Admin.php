@@ -16,4 +16,5 @@ class Admin extends Model
             return "error";
         }
     }
+    
 }

@@ -19,4 +19,8 @@ class ActionController extends Controller
             return view('admin', ['error' => $mdp]);
         }
     }
+    public function add(Request $request){
+        Classic::addOne($request);
+        return redirect('admin');
+    }
 }

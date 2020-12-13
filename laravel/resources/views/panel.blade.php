@@ -6,7 +6,8 @@
 
 @section('content')
 <h1>Liste des cartes</h1>
-<form action="/add" method="post">
+<form action="/ajouter" method="post">
+    @csrf
     <button type="submit">Ajouter des cartes</button>
 </form>
 <div>

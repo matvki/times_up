@@ -21,6 +21,9 @@ Route::get('/mode_de_jeux', [NavController::class, 'choose']);
 Route::get('/les_regles', [NavController::class, 'rules']);
 
 Route::get('/admin', [NavController::class, 'admin']);
+Route::post('/ajouter', [NavController::class, 'add']);
+Route::post('/add', [ActionController::class, 'add']);
+
 
 
 Route::post('/jeux', [NavController::class, 'jeux']);
