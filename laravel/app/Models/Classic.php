@@ -32,5 +32,8 @@ class Classic extends Model
         }
         return $cardArray;
     }
+    public static function getAll(){
+        return Classic::all();
+    }
 
 }
