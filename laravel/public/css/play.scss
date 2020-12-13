@@ -1,0 +1,17 @@
+.hide{
+    display:none;
+}
+
+.flex{
+    display: flex;
+}
+
+
+.cards{
+    flex-wrap: wrap;
+    width: 100%;
+    .card{
+        width: 55vw;
+    }
+
+}
