@@ -8,39 +8,42 @@
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/header-footer.css">
-    <link rel="stylesheet" href="@yield('css')">
 </head>
 <body>
     <header>
         <nav>
-            <a href="/" class="survol">
-                <div>
-                    <img src="img/home.png" alt="">
-                </div>
-            </a>
-            {{-- <img class="etc invisible" src="img/etiquette1.png" alt=""> --}}
-
-            <a href="/mode_de_jeux">
-                <div>
-                    <img src="img/play.png" alt="">
-                </div>
-            </a>
-            <a href="/les_regles">
-                <div>
-                    <img src="img/copy.png" alt="">
-                </div>
-            </a>
+            <div class="flex">
+                <a href="#">
+                    <div>
+                        <img src="img/home.png" alt="">
+                    </div>
+                </a>
+                <img class="etc" src="img/etc1.png" alt="">
+            </div>
+            <div class="flex">
+                <a href="#">
+                    <div>
+                        <img src="img/play.png" alt="">
+                    </div>
+                </a>
+                <img class="etc" src="img/etc2.png" alt="">
+            </div>
+            <div class="flex">
+                <a href="#">
+                    <div>
+                        <img src="img/copy.png" alt="">
+                    </div>
+                </a>
+                <img class="etc" src="img/etc3.png" alt="">
+            </div>
+            
         </nav>
     </header>
     
-    <main class="flex">
+    <main>
     
         @yield('content')
     
     </main>
-    <footer>
-
-    </footer>
-    <script src="@yield('js')"></script>
 </body>
 </html>
