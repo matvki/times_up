@@ -2,19 +2,6 @@
   display: flex;
 }
 
-header {
-  width: 150px;
-  position: fixed;
-}
-
-header nav {
-  display: flex;
-  margin-left: 2em;
-  justify-content: space-around;
-  flex-direction: column;
-  height: 100%;
-}
-
 header nav .etc {
   height: 26px;
   width: auto;
@@ -56,4 +43,27 @@ header nav div a:hover:not(:hover) {
 
 header nav div:hover .etc {
   display: block;
+}
+
+@media (max-width: 767px) {
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  header {
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+  }
+  header nav {
+    display: flex;
+    margin-left: 2em;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+  }
 }
