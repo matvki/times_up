@@ -1,31 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
-h1 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    letter-spacing: 3px;
-    text-align: center;
-}
-
-.container {
-    max-width: 1100px;
-    margin: auto;
-}
-.flex{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 main{
-    height: 100%;
     section{
         text-align: center;
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+            letter-spacing: 3px;
+            text-align: center;
+        }
         div {
             display: flex;
             flex-direction: column;
@@ -52,6 +33,18 @@ main{
             background-color: darkgrey;
             color: white;
             border: none;
+        }
+    }
+}
+@media(max-width:767px){
+    main{
+        section{
+            width: 300px;
+            div{
+                img{
+                    width: 320px;
+                }
+            }
         }
     }
 }

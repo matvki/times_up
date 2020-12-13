@@ -33,10 +33,5 @@ class NavController extends Controller
     public function admin(){
         return view('admin');
     }
-    public function list(){
-        $cards = Classic::getAll();
-        return view('panel', ['cards' => $cards]);
-    }
-
     
 }

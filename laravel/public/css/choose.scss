@@ -3,56 +3,123 @@
 .none {
     display: none;
 }
-body {
-    main {
-        padding-top: 100px;
-        section#title {
-            width: 1080px;
-            text-align: center;
-            border: solid 10px black;
-            padding: 20px 0;
-            background-color: rgb(241, 233, 204);
-            h1 {
-                font-size: 70px;
-                font-family: "Pacifico", cursive;
-                margin-bottom: 20px;
-            }
-            p {
-                font-size: 25px;
-                font-family: "Courgette", cursive;
-            }
+
+main {
+    padding-top: 100px;
+    section#title {
+        width: 1080px;
+        text-align: center;
+        border: solid 10px black;
+        padding: 20px 0;
+        background-color: rgb(241, 233, 204);
+        h1 {
+            font-size: 70px;
+            font-family: "Pacifico", cursive;
+            margin-bottom: 20px;
         }
-        section#form {
-            margin-top: 50px;
-            width: 1080px;
-            text-align: center;
-            border: solid 10px black;
-            padding: 50px 0;
-            background-color: rgb(241, 233, 204);
-            form {
-                article {
-                    width: 900px;
-                    margin: 0 auto 30px;
-                    div {
-                        display: flex;
-                        justify-content: center;
-                        align-items: baseline;
-                        input {
-                            margin: 0 10px;
-                        }
+        p {
+            font-size: 25px;
+            font-family: "Courgette", cursive;
+        }
+    }
+    section#form {
+        margin-top: 50px;
+        width: 1080px;
+        text-align: center;
+        border: solid 10px black;
+        padding: 50px 0;
+        background-color: rgb(241, 233, 204);
+        form {
+            article {
+                width: 900px;
+                margin: 0 auto 30px;
+                div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: baseline;
+                    input {
+                        margin: 0 10px;
                     }
                 }
-                article#team2,article#team3{
-                    div{
-                        div{
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-                            margin: 20px;
-                        }
+            }
+            article#team2,
+            article#team3 {
+                div {
+                    div {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        margin: 20px;
                     }
                 }
             }
         }
     }
+}
+
+@media (max-width: 767px) {
+    main {
+        section {
+            &#title {
+                padding: 20px;
+                h1 {
+                    font-size: 30px;
+                }
+                p {
+                    font-size: 20px;
+                }
+            }
+            &#form {
+                form {
+                    article {
+                        width: 60vw;
+                        div {
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                        &.select {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+            &#form,
+            &#title {
+                max-width: 80vw;
+            }
+        }
+    }
+}
+@media (min-width: 768px) {
+    main {
+        section {
+            &#form {
+                form {
+                    article {
+                        width: 60vw;
+                    }
+                }
+            }
+            &#form,
+            &#title {
+                max-width: 70vw;
+            }
+            article#team2,
+            article#team3 {
+                margin: 0 auto;
+                div.center {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
 }

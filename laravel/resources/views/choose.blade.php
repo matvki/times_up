@@ -9,11 +9,11 @@
 </section>
 <section id="form" class="container">
     <form action="/jeux" method="post">
-    @csrf
-        <article>
+        @csrf
+        <article class="select">
             <label for="nbrPlayer">Choix du nombre de participant :</label>
             <select name="nbrPlayer" id="nbrPlayer">
-                <option value="">--Veuillez choisir un nombre valide--</option>
+                <option value="">--choisir un nombre--</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
                 <option value="4">4</option>
@@ -30,10 +30,10 @@
                 <option value="15">15</option>
             </select>
         </article>
-        <article>
+        <article class="select">
             <label for="nbrCard">Choix du nombre de cartes :</label>
             <select name="nbrCard" id="nbrCard">
-                <option value="">--Veuillez choisir un nombre valide--</option>
+                <option value="">--choisir un nombre--</option>
                 <option value="21">21</option>
                 <option value="31">31</option>
                 <option value="41">41</option>
@@ -89,32 +89,32 @@
             <article id="team2" class="">
                 <p>Choix des équipes :</p>
                 <p>Attention, veuillez a bien séparer vos prénoms par un ";" si ils ne sont pas séparés par un ";" il se peut que deux personnes soient prise pour une seule et même personne!!</p>
-                <div>
+                <div class="center">
                     <div>
                         <label for="blueTeam2">Equipe bleu</label>
-                        <textarea name="blueTeam2" id="blueTeam2" cols="30" rows="3"></textarea>
+                        <textarea name="blueTeam2" id="blueTeam2" cols="25" rows="3"></textarea>
                     </div>
                     <div>
                         <label for="redTeam2">Equipe rouge</label>
-                        <textarea name="redTeam2" id="redTeam2" cols="30" rows="3"></textarea>
+                        <textarea name="redTeam2" id="redTeam2" cols="25" rows="3"></textarea>
                     </div>
                 </div>
             </article>
             <article id="team3" class="none">
                 <p>Choix des équipes :</p>
-                <p>Attention, veuillez a bien séparer vos prénoms par un ";" si ils ne sont pas séparés par un ";" il se peut que deux personne soient prise pour une seule et meme personne!!</p>
-                <div>
+                <p>Attention, veuillez a bien séparer vos prénoms par un ";" si ils ne sont pas séparés par un ";" il se peut que deux personnes soient prise pour une seule et même personne!!</p>
+                <div class="center">
                     <div>
                         <label for="blueTeam3">Equipe bleu</label>
-                        <textarea name="blueTeam3" id="blueTeam3" cols="30" rows="3"></textarea>
+                        <textarea name="blueTeam3" id="blueTeam3" cols="25" rows="3"></textarea>
                     </div>
                     <div>
                         <label for="redTeam3">Equipe rouge</label>
-                        <textarea name="redTeam3" id="redTeam3" cols="30" rows="3"></textarea>
+                        <textarea name="redTeam3" id="redTeam3" cols="25" rows="3"></textarea>
                     </div>
                     <div>
                         <label for="pinkTeam3">Equipe rose</label>
-                        <textarea name="pinkTeam3" id="pinkTeam3" cols="30" rows="3"></textarea>
+                        <textarea name="pinkTeam3" id="pinkTeam3" cols="25" rows="3"></textarea>
                     </div>
                 </div>
             </article>
