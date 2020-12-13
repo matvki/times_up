@@ -27,10 +27,11 @@ function next(){
 
 function find(){
     restCard=document.querySelectorAll(".card").length
-    console.log(restCard)
     if(restCard==1){
         document.querySelector('.congrat').classList.remove('hide');
-
+        document.querySelectorAll(".card")[i].classList.add('hide');
+        document.querySelectorAll(".next")[i].classList.add('hide');
+        document.querySelectorAll(".find")[i].classList.add('hide');
     } else {
         if (i>restCard-2) {
             i=0

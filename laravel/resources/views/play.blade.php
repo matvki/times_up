@@ -15,8 +15,8 @@
             </div>
             
         @endforeach
-        <input type="button" value="suivant" onclick="next()">
-        <input type="button" value="trouver" onclick="find()">
+        <input class="next" type="button" value="suivant" onclick="next()">
+        <input class="find" type="button" value="trouver" onclick="find()">
     </div>
 
     <div class="hide congrat">
