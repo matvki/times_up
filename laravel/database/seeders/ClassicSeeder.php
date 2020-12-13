@@ -1334,6 +1334,249 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Les fleurs du mal",
+        ],
+        [
+            'card' => "Architecte",
+        ],
+        [
+            'card' => "Traducteur",
+        ],
+        [
+            'card' => "Archéologue",
+        ],
+        [
+            'card' => "Bûcheron",
+        ],
+        [
+            'card' => "Boulanger",
+        ],
+        [
+            'card' => "Ébéniste",
+        ],
+        [
+            'card' => "Scientifique",
+        ],
+        [
+            'card' => "Policier",
+        ],
+        [
+            'card' => "Mécanicien",
+        ],
+        [
+            'card' => "Styliste",
+        ],
+        [
+            'card' => "Prof",
+        ],
+        [
+            'card' => "Plombier",
+        ],
+        [
+            'card' => "Coiffeur",
+        ],
+        [
+            'card' => "Médecin",
+        ],
+        [
+            'card' => "Berger",
+        ],
+        [
+            'card' => "Infirmière",
+        ],
+        [
+            'card' => "Peintre",
+        ],
+        [
+            'card' => "Caissière",
+        ],
+        [
+            'card' => "Acteur",
+        ],
+        [
+            'card' => "Footballeur",
+        ],
+        [
+            'card' => "Développeur",
+        ],
+        [
+            'card' => "Cuisinier",
+        ],
+        [
+            'card' => "Détective",
+        ],
+        [
+            'card' => "Fleuriste",
+        ],
+        [
+            'card' => "Dentiste",
+        ],
+        [
+            'card' => "Serrurier",
+        ],
+        [
+            'card' => "Maître-nageur",
+        ],
+        [
+            'card' => "Livreur de pizza",
+        ],
+        [
+            'card' => "Comptable",
+        ],
+        [
+            'card' => "Moniteur de ski",
+        ],
+        [
+            'card' => "Psychiatre",
+        ],
+        [
+            'card' => "Journaliste",
+        ],
+        [
+            'card' => "Boucher",
+        ],
+        [
+            'card' => "Serveur",
+        ],
+        [
+            'card' => "Réalisateur",
+        ],
+        [
+            'card' => "Pompier",
+        ],
+        [
+            'card' => "Magicien",
+        ],
+        [
+            'card' => "Photographe",
+        ],
+        [
+            'card' => "Pêcheur",
+        ],
+        [
+            'card' => "Barman",
+        ],
+        [
+            'card' => "Musicien",
+        ],
+        [
+            'card' => "Banquier",
+        ],
+        [
+            'card' => "Postier",
+        ],
+        [
+            'card' => "Opticien",
+        ],
+        [
+            'card' => "Cordonnier",
+        ],
+        [
+            'card' => "Agent de sécurité",
+        ],
+        [
+            'card' => "Cascadeur",
+        ],
+        [
+            'card' => "Bijoutier",
+        ],
+        [
+            'card' => "Cameraman",
+        ],
+        [
+            'card' => "Jardinier",
+        ],
+        [
+            'card' => "Présentateur météo",
+        ],
+        [
+            'card' => "Goûteur",
+        ],
+        [
+            'card' => "Puériculture",
+        ],
+        [
+            'card' => "Hacker",
+        ],
+        [
+            'card' => "Voix-off",
+        ],
+        [
+            'card' => "Pousseur du métro",
+        ],
+        [
+            'card' => "Maréchal-ferrant",
+        ],
+        [
+            'card' => "Masseur",
+        ],
+        [
+            'card' => "Mannequin",
+        ],
+        [
+            'card' => "Régisseur",
+        ],
+        [
+            'card' => "Personal shopper",
+        ],
+        [
+            'card' => "Laveur de vitre",
+        ],
+        [
+            'card' => "Souffleur de verre",
+        ],
+        [
+            'card' => "Deratiseur",
+        ],
+        [
+            'card' => "Escort",
+        ],
+        [
+            'card' => "Taxidermiste",
+        ],
+        [
+            'card' => "Gamer",
+        ],
+        [
+            'card' => "Pharmacien",
+        ],
+        [
+            'card' => "Cantinier",
+        ],
+        [
+            'card' => "Kayakiste",
+        ],
+        [
+            'card' => "Urologue",
+        ],
+        [
+            'card' => "Funambule",
+        ],
+        [
+            'card' => "Aventurier",
+        ],
+        [
+            'card' => "Commercial",
+        ],
+        [
+            'card' => "Juge",
+        ],
+        [
+            'card' => "Croupier",
+        ],
+        [
+            'card' => "Sage-femme",
+        ],
+        [
+            'card' => "Déménageur",
+        ],
+        [
+            'card' => "Jockey",
+        ],
+        [
+            'card' => "Maroufleur",
+        ],
+        [
+            'card' => "Controleur",
         ]];
         DB::table('classics')->insert($classics);
         DB::table('admins')->insert([
