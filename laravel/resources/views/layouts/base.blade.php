@@ -14,7 +14,7 @@
     <header>
         <nav>
             <div class="flex">
-                <a href="#">
+                <a href="/">
                     <div>
                         <img src="img/home.png" alt="">
                     </div>
@@ -22,7 +22,7 @@
                 <img class="etc" src="img/etc1.png" alt="">
             </div>
             <div class="flex">
-                <a href="#">
+                <a href="/mode_de_jeux">
                     <div>
                         <img src="img/play.png" alt="">
                     </div>
@@ -30,7 +30,7 @@
                 <img class="etc" src="img/etc2.png" alt="">
             </div>
             <div class="flex">
-                <a href="#">
+                <a href="/les_regles">
                     <div>
                         <img src="img/copy.png" alt="">
                     </div>

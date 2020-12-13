@@ -31,7 +31,7 @@
         </article>
         <article class="after">
             <p>Vous êtes prêt ? </p>
-            <a href=""> C'est parti !!</a>
+            <a href="/mode_de_jeux"> C'est parti !!</a>
         </article>
 
     </section>
