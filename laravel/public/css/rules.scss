@@ -1,4 +1,5 @@
 section{
+    margin-top: 50px;
     text-align: center;
     article{
         text-align: center;
@@ -24,9 +25,12 @@ section{
             margin-top: 30px;
             width: 70%;
         }
-        
     }
-    .after{
+    article.row{
+        margin: 0;
+        max-width: 100vw;
+    }
+    article.after{
         margin-top: 35px;
         flex-direction: column;
         align-items: center;
@@ -34,7 +38,6 @@ section{
             padding: 7px 10px;
             border: 1px solid black;
             border-radius: 50px;
-            width: 10%;
             margin-top: 5px;
         }
         a:hover{
@@ -44,3 +47,7 @@ section{
         }
     }
 }
+@media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}

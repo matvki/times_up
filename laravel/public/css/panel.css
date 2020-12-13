@@ -28,7 +28,7 @@ main form button:hover {
 
 main div {
   text-align: center;
-  width: 1080px;
+  width: 70vw;
   margin: 100px auto 0;
 }
 
@@ -43,7 +43,7 @@ main div table thead {
 }
 
 main div table tbody {
-  max-width: 1080px;
+  max-width: 70vw;
 }
 
 main div table tbody tr:hover td {

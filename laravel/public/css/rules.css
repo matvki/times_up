@@ -1,4 +1,5 @@
 section {
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -33,21 +34,25 @@ section article .littleMore {
   width: 70%;
 }
 
-section .after {
+section article.row {
+  margin: 0;
+  max-width: 100vw;
+}
+
+section article.after {
   margin-top: 35px;
   flex-direction: column;
   align-items: center;
 }
 
-section .after a {
+section article.after a {
   padding: 7px 10px;
   border: 1px solid black;
   border-radius: 50px;
-  width: 10%;
   margin-top: 5px;
 }
 
-section .after a:hover {
+section article.after a:hover {
   color: white;
   background-color: lightgray;
   border: none;

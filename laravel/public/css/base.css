@@ -1,5 +1,4 @@
 * {
-
     box-sizing: border-box;
     outline: none;
     text-decoration: none;
@@ -8,6 +7,7 @@
     /*border: 1px dotted rgba(0,0,0,0.3);*/
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 *:hover {
@@ -23,13 +23,9 @@ body {
     padding: 0;
     font-size: 1.6rem;
     line-height: 1.6;
-    
 }
 
-a,
-a:hover,
-a:visited,
-a:active {
+a, a:hover, a:visited, a:active {
     text-decoration: none;
     color: inherit;
 }
@@ -50,3 +46,9 @@ a {
     margin: 0 auto;
 }
 
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

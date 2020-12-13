@@ -9,20 +9,20 @@
 
         <h1> Les règles de IT Times</h1>
         <article class="row">
-            <ul class="row col-8">
-                <li class="col-5">
+            <ul class="row col-6 col-sm-8">
+                <li class="col-sm-5">
                     <img src="./img/standing-up-man-.png" alt="">
                     <p> Se joue de 2 à 15 personnes</p>
                 </li>
-                <li class="col-5">
+                <li class="col-sm-5">
                     <img src="./img/group.png" alt="">
                     <p> 2 à 3 équipes </p>
                 </li>
-                <li class="col-5">
+                <li class="col-sm-5">
                     <img src="./img/choosing.png" alt="">
                     <p> Choisir les membres de votre équipe ou non.</p>
                 </li>
-                <li class="col-5">
+                <li class="col-sm-5">
                     <img src="./img/list.png" alt="">
                     <p> Choisir une catégorie de carte ( Animaux, personnalité… etc)</p>
                 </li>

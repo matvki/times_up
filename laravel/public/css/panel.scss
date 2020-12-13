@@ -26,7 +26,7 @@ main {
     }
     div {
         text-align: center;
-        width: 1080px;
+        width: 70vw;
         margin: 100px auto 0;
         table {
             border: solid 5px rgb(88, 101, 224);
@@ -36,7 +36,7 @@ main {
                 color: white;
             }
             tbody {
-                max-width: 1080px;
+                max-width: 70vw;
                 tr {
                     &:hover td {
                         background-color: rgb(148, 156, 230);
@@ -49,3 +49,7 @@ main {
         }
     }
 }
+@media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
