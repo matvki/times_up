@@ -1,0 +1,39 @@
+main{
+    h1{
+        text-align: center;
+        font-size: 70px;
+        font-family: "Pacifico", cursive;
+        margin-bottom: 20px;
+    }
+}
+
+form{
+    font-family: "Courgette", cursive;
+    text-align: center;
+    div{
+        margin: 50px 0px 50px;
+        label{
+            font-size: 20px;
+        }
+        input[type=text]{
+            margin-left: 10px;
+            padding: 7px 10px;
+            box-shadow: 6px 4px 5px rgba(0, 0, 0, 0.466);
+            border-radius: 50px;
+            border: 1px solid black;
+        }
+    }
+    button {
+        background-color: rgb(216, 216, 216);
+        box-shadow: 5px 5px 5px rgb(0, 0, 0);
+        padding: 5px 10px;
+        border: none;
+        border-radius: 20px;
+        font-family: "Courgette", cursive;
+        &:hover {
+            background-color: rgb(88, 101, 224);
+            color: honeydew;
+            box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.363);
+        }
+    }
+}
