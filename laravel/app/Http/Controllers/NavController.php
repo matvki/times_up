@@ -1,9 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Http\Controllers\Controller;
+use App\Models\Classic;
 
 use Illuminate\Http\Request;
-use App\Models\Classic;
 
 
 class NavController extends Controller
@@ -25,7 +26,8 @@ class NavController extends Controller
 
     public function jeux(Request $request)
     {
-    return view('jeux', ['request' => $request]);
+        $cardArray=Classic::selectCard($request);
+        return view('play', ['request' => $request] , ['cards' => $cardArray]);
     }
 
     public function admin(){

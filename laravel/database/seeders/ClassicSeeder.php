@@ -1333,7 +1333,7 @@ class ClassicSeeder extends Seeder
             'card' => "Kaamelott",
         ],
         [
-            'card' => "les fleure du mal",
+            'card' => "Les fleurs du mal",
         ]];
         DB::table('classics')->insert($classics);
         DB::table('admins')->insert([
