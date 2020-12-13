@@ -1,0 +1,63 @@
+.flex{
+    display: flex;
+}
+
+header{
+    width: 150px;
+    position: fixed;
+    nav {
+        display: flex;
+        margin-left: 2em;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 100%;
+
+        .etc{
+            height: 26px;
+            width: auto;
+            margin-left: 110px;
+            margin-top: 32px;
+            display: none;
+            position: absolute;
+
+        }
+        div{
+            a{
+                display: flex;
+                height: 90px;
+                width: 90px;
+                border-radius: 100px;
+                background-image: url(/img/fond.jpg);
+                
+                div{
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+                    width: 100%;
+                    justify-content: center;
+                    
+                    img{
+                        height: 40px;
+                        width: auto;
+                        
+                    }
+                    
+                }
+                &:hover{
+                    background-image: linear-gradient(rgba(255, 255, 255, 0.153), rgba(255, 255, 255, 0.153)), url(/img/fond.jpg);
+                    transition: all 0.9s;
+                    
+                    &:not(:hover){
+                        transition:  1s;
+                    }
+                }
+                
+            }
+            &:hover{
+                .etc{
+                    display: block;
+                }
+            }
+        }
+    }
+}

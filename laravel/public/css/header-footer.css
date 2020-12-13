@@ -1,0 +1,59 @@
+.flex {
+  display: flex;
+}
+
+header {
+  width: 150px;
+  position: fixed;
+}
+
+header nav {
+  display: flex;
+  margin-left: 2em;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100%;
+}
+
+header nav .etc {
+  height: 26px;
+  width: auto;
+  margin-left: 110px;
+  margin-top: 32px;
+  display: none;
+  position: absolute;
+}
+
+header nav div a {
+  display: flex;
+  height: 90px;
+  width: 90px;
+  border-radius: 100px;
+  background-image: url(/img/fond.jpg);
+}
+
+header nav div a div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+header nav div a div img {
+  height: 40px;
+  width: auto;
+}
+
+header nav div a:hover {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.153), rgba(255, 255, 255, 0.153)), url(/img/fond.jpg);
+  transition: all 0.9s;
+}
+
+header nav div a:hover:not(:hover) {
+  transition: 1s;
+}
+
+header nav div:hover .etc {
+  display: block;
+}

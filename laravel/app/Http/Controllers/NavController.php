@@ -6,6 +6,7 @@ use App\Models\Classic;
 
 use Illuminate\Http\Request;
 
+
 class NavController extends Controller
 {
     public function welcome()
@@ -17,10 +18,25 @@ class NavController extends Controller
     {
         return view('choose');
     }
+    
+    public function rules()
+    {
+        return view('rules');
+    }
 
     public function jeux(Request $request)
     {
         $cardArray=Classic::selectCard($request);
         return view('play', ['request' => $request] , ['cards' => $cardArray]);
     }
+
+    public function admin(){
+        return view('admin');
+    }
+    public function list(){
+        $cards = Classic::getAll();
+        return view('panel', ['cards' => $cards]);
+    }
+
+    
 }
