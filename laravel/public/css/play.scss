@@ -1,3 +1,12 @@
+
+@font-face {
+    font-family: "BrighlyCrush-Shine";
+  
+    src: url("./fonts/BrightlyCrushShine.woff") format("woff"), /* Modern Browsers */
+      url("./fonts/BrightlyCrushShine.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
 .hide{
     display:none;
 }
@@ -5,13 +14,220 @@
 .flex{
     display: flex;
 }
+.white{
+    color: white;
+}
 
-
-.cards{
-    flex-wrap: wrap;
+#play{
+    flex-direction: column;
     width: 100%;
-    .card{
-        width: 55vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    .start{
+        height:100vh;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        h1{
+
+            font-family: "BrighlyCrush-Shine";
+            color: #F5B16C;
+        }
+        input{
+            border:none;
+            font-weight: bold;
+            font-family: "BrighlyCrush-Shine";
+            font-size: 25px;
+            color: #F5B16C;
+            background-color: #2E7DFF ;
+            border-radius: 10px;
+            height: 100px;
+            width: 300px;
+            &:hover{
+                color:#2E7DFF;
+                background-color: #F5B16C ;
+                font-size: 30px;
+
+            }
+        }
+
     }
 
+    .cards1{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        .card1{
+        
+            width: 550px;
+            padding: 10px;
+            box-shadow: 2px 3px 10px;
+            border-radius: 10px;
+            margin-bottom: 2em;
+            .enterCard{
+                border-radius: 10px;
+                padding: 1em 2em;
+                background-color: #2E7DFF;
+                border: 4px solid #F5B16C;
+                text-align: center;
+                div{
+                    justify-content: flex-end;
+                    .top-right{
+                        
+                        text-align: right;
+                        transform: rotate(45deg);
+                        width: min-content;
+                        font-family: "BrighlyCrush-Shine";
+                        color: #F5B16C;
+                    }
+                }
+                p{
+                    padding: 2em ;
+                    border-radius: 0 50% 0 50% ;
+                    background-color: white;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+                .bottom-left{
+                    width: min-content;
+                    text-align: left;
+                    align-items: flex-start;
+                    font-family: "BrighlyCrush-Shine";
+                    color: #F5B16C;
+                    transform: rotate(225deg);
+
+
+                }
+            }
+        }
+        .div-btn1{
+            justify-content: center;
+            height: 30vw;
+            align-items: center;
+
+
+            .find{
+                border:none;
+                background-color: #2E7DFF;
+                color: #F5B16C;
+                font-family: "BrighlyCrush-Shine";
+                width: 300px;
+                height: 300px;
+                border-radius:200px  ;
+                font-size: 25px;
+
+                
+                &:hover{
+                    background-color: #F5B16C;
+
+                    color: #2E7DFF;
+                    font-size: 35px;
+                    
+    
+                }
+            }
+        }
+    }
+    .cards2{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        .card2{
+        
+            width: 550px;
+            padding: 10px;
+            box-shadow: 2px 3px 10px;
+            border-radius: 10px;
+            margin-bottom: 2em;
+            .enterCard{
+                border-radius: 10px;
+                padding: 1em 2em;
+                background-color: #2E7DFF;
+                border: 4px solid #F5B16C;
+                text-align: center;
+                div{
+                    justify-content: flex-end;
+                    .top-right{
+                        
+                        text-align: right;
+                        transform: rotate(45deg);
+                        width: min-content;
+                        font-family: "BrighlyCrush-Shine";
+                        color: #F5B16C;
+                    }
+                }
+                p{
+                    padding: 2em ;
+                    border-radius: 0 50% 0 50% ;
+                    background-color: white;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+                .bottom-left{
+                    width: min-content;
+                    text-align: left;
+                    align-items: flex-start;
+                    font-family: "BrighlyCrush-Shine";
+                    color: #F5B16C;
+                    transform: rotate(225deg);
+
+
+                }
+            }
+        }
+        .div-btn2{
+            justify-content: center;
+            height: 30vw;
+            align-items: center;
+
+
+            .find{
+                border:none;
+                background-color: #2E7DFF;
+                color: #F5B16C;
+                border-right: 2px solid #F5B16C;
+                font-family: "BrighlyCrush-Shine";
+                width: 150px;
+                height: 300px;
+                border-radius:200px 0 0 200px ;
+                font-size: 25px;
+
+                
+                &:hover{
+                    background-color: #F5B16C;
+
+                    color: #2E7DFF;
+                    font-size: 35px;
+                    
+    
+                }
+            }
+            .next{
+                border:none;
+                background-color: #2E7DFF;
+                color: #F5B16C;
+                font-family: "BrighlyCrush-Shine";
+                width: 150px;
+                height: 300px;
+                border-radius:0 200px 200px 0;
+                font-size: 25px;
+                
+                &:hover{
+                    background-color: #F5B16C;
+                    color: #2E7DFF;
+                    font-size: 30px;
+
+    
+                }
+            }
+        }
+    }
 }
+
+
