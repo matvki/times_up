@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/header-footer.css">
+    <link rel="stylesheet" href="@yield('css')">
 </head>
 <body>
     <header>
@@ -45,5 +46,6 @@
         @yield('content')
     
     </main>
+    <script src="@yield('js')"></script>
 </body>
 </html>
