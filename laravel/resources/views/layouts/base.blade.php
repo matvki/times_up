@@ -29,7 +29,7 @@
                 <img class="etc" src="img/etc2.png" alt="">
             </div>
             <div class="flex">
-                <a href="#">
+                <a href="/les_regles">
                     <div>
                         <img src="img/copy.png" alt="">
                     </div>

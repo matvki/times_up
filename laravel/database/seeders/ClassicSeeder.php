@@ -466,7 +466,7 @@ class ClassicSeeder extends Seeder
             'card' => "American Pie",
         ],
         [
-            'card' => "Michaem Schumacher",
+            'card' => "Michael Schumacher",
         ],
         [
             'card' => "Zlatan Ibrahimovic",
@@ -559,7 +559,7 @@ class ClassicSeeder extends Seeder
             'card' => "Voldemort",
         ],
         [
-            'card' => "Franquin",
+            'card' => "Franklin",
         ],
         [
             'card' => "Forrest Gump",
@@ -934,7 +934,7 @@ class ClassicSeeder extends Seeder
             'card' => "La Schtroumpfette",
         ],
         [
-            'card' => "Colonel Moutard",
+            'card' => "Colonel Moutarde",
         ],
         [
             'card' => "Eric Cantona",
