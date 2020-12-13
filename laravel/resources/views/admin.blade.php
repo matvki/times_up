@@ -18,6 +18,7 @@
             <label for="password">Password</label>
             <input type="password" name="password" id="password">
         </div>
+        <input type="hidden" name="value" value="connexion">
         <input type="submit" value="valider">
         </form>
     </section>

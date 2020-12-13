@@ -6,9 +6,10 @@
 
 @section('content')
 <h1>Liste des cartes</h1>
-<form action="/ajouter" method="post">
+<form action="/login" method="post">
     @csrf
     <button type="submit">Ajouter des cartes</button>
+    <input type="hidden" name="value" value="add">
 </form>
 <div>
     <table class="table table-hover">

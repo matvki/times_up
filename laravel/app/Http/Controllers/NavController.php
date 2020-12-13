@@ -34,7 +34,4 @@ class NavController extends Controller
         return view('admin');
     }
     
-    public function add(){
-        return view('add');
-    }
 }
