@@ -42,17 +42,6 @@ main {
                     }
                 }
             }
-            article#team2,
-            article#team3 {
-                div {
-                    div {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        margin: 20px;
-                    }
-                }
-            }
         }
     }
 }
@@ -105,16 +94,6 @@ main {
             &#form,
             &#title {
                 max-width: 70vw;
-            }
-            article#team2,
-            article#team3 {
-                margin: 0 auto;
-                div.center {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: center;
-                }
             }
         }
     }

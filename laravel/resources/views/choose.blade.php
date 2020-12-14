@@ -11,26 +11,6 @@
     <form action="/jeux" method="post">
         @csrf
         <article class="select">
-            <label for="nbrPlayer">Choix du nombre de participant :</label>
-            <select name="nbrPlayer" id="nbrPlayer">
-                <option value="">--choisir un nombre--</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-                <option value="12">12</option>
-                <option value="13">13</option>
-                <option value="14">14</option>
-                <option value="15">15</option>
-            </select>
-        </article>
-        <article class="select">
             <label for="nbrCard">Choix du nombre de cartes :</label>
             <select name="nbrCard" id="nbrCard">
                 <option value="">--choisir un nombre--</option>
@@ -63,64 +43,14 @@
             <p>Choix du nombre d'équipe :</p>
             <div>
                 <div>
-                    <input type="radio" name="nbrTeam" id="2" value="2" checked>
-                    <label for="2">2</label>
-                </div>
-                <div>
-                    <input type="radio" name="nbrTeam" id="3" value="3">
-                    <label for="3">3</label>
+                    <label for="nbrTeam">Veuillez entrer un nombre d'équipe participant a la partie : </label>
+                    <input type="number" name="nbrTeam" id="nbrTeam">
                 </div>
             </div>
         </article>
-        <article>
-            <p>Voulez-vous choisir vos équipes ?</p>
-            <div>
-                <div>
-                    <input type="radio" name="chooseTeam" id="yesTeam" value="yesTeam" checked>
-                    <label for="yesTeam">oui</label>
-                </div>
-                <div>
-                    <input type="radio" name="chooseTeam" id="noTeam" value="noTeam">
-                    <label for="noTeam">non</label>
-                </div>
-            </div>
-        </article>
-        <div id="chooseTeam">
-            <article id="team2" class="">
-                <p>Choix des équipes :</p>
-                <p>Attention, veuillez a bien séparer vos prénoms par un ";" si ils ne sont pas séparés par un ";" il se peut que deux personnes soient prise pour une seule et même personne!!</p>
-                <div class="center">
-                    <div>
-                        <label for="blueTeam2">Equipe bleu</label>
-                        <textarea name="blueTeam2" id="blueTeam2" cols="25" rows="3"></textarea>
-                    </div>
-                    <div>
-                        <label for="redTeam2">Equipe rouge</label>
-                        <textarea name="redTeam2" id="redTeam2" cols="25" rows="3"></textarea>
-                    </div>
-                </div>
-            </article>
-            <article id="team3" class="none">
-                <p>Choix des équipes :</p>
-                <p>Attention, veuillez a bien séparer vos prénoms par un ";" si ils ne sont pas séparés par un ";" il se peut que deux personnes soient prise pour une seule et même personne!!</p>
-                <div class="center">
-                    <div>
-                        <label for="blueTeam3">Equipe bleu</label>
-                        <textarea name="blueTeam3" id="blueTeam3" cols="25" rows="3"></textarea>
-                    </div>
-                    <div>
-                        <label for="redTeam3">Equipe rouge</label>
-                        <textarea name="redTeam3" id="redTeam3" cols="25" rows="3"></textarea>
-                    </div>
-                    <div>
-                        <label for="pinkTeam3">Equipe rose</label>
-                        <textarea name="pinkTeam3" id="pinkTeam3" cols="25" rows="3"></textarea>
-                    </div>
-                </div>
-            </article>
-        </div>
         <input type="submit" value="Valider">
     </form>
 </section>
+
 @endsection
-@section('js', '/js/choose.js')
+@section('js', 'js/choose.js')

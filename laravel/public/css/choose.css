@@ -51,14 +51,6 @@ main section#form form article div input {
   margin: 0 10px;
 }
 
-main section#form form article#team2 div div,
-main section#form form article#team3 div div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px;
-}
-
 @media (max-width: 767px) {
   main section#title {
     padding: 20px;
@@ -92,16 +84,5 @@ main section#form form article#team3 div div {
   }
   main section#form, main section#title {
     max-width: 70vw;
-  }
-  main section article#team2,
-  main section article#team3 {
-    margin: 0 auto;
-  }
-  main section article#team2 div.center,
-  main section article#team3 div.center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
 }
