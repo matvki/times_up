@@ -31,7 +31,7 @@ main {
         background-color: rgb(241, 233, 204);
         form {
             article {
-                width: 900px;
+                max-width: 900px;
                 margin: 0 auto 30px;
                 div {
                     display: flex;
