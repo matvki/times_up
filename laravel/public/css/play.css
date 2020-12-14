@@ -81,6 +81,7 @@
 }
 
 #play .cards1 .card1 .enterCard div {
+  display: flex;
   justify-content: flex-end;
 }
 
@@ -157,6 +158,7 @@
 }
 
 #play .cards2 .card2 .enterCard div {
+  display: flex;
   justify-content: flex-end;
 }
 
@@ -224,4 +226,106 @@
   background-color: #F5B16C;
   color: #2E7DFF;
   font-size: 30px;
+}
+
+#play .cards3 {
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#play .cards3 .card3 {
+  width: 550px;
+  padding: 10px;
+  box-shadow: 2px 3px 10px;
+  border-radius: 10px;
+  margin-bottom: 2em;
+}
+
+#play .cards3 .card3 .enterCard {
+  border-radius: 10px;
+  padding: 1em 2em;
+  background-color: #2E7DFF;
+  border: 4px solid #F5B16C;
+  text-align: center;
+}
+
+#play .cards3 .card3 .enterCard div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#play .cards3 .card3 .enterCard div .top-right {
+  text-align: right;
+  transform: rotate(45deg);
+  width: min-content;
+  font-family: "BrighlyCrush-Shine";
+  color: #F5B16C;
+}
+
+#play .cards3 .card3 .enterCard p {
+  padding: 2em;
+  border-radius: 0 50% 0 50%;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#play .cards3 .card3 .enterCard .bottom-left {
+  width: min-content;
+  text-align: left;
+  align-items: flex-start;
+  font-family: "BrighlyCrush-Shine";
+  color: #F5B16C;
+  transform: rotate(225deg);
+}
+
+#play .cards3 .div-btn3 {
+  justify-content: center;
+  height: 30vw;
+  align-items: center;
+}
+
+#play .cards3 .div-btn3 .find {
+  border: none;
+  background-color: #2E7DFF;
+  color: #F5B16C;
+  border-right: 2px solid #F5B16C;
+  font-family: "BrighlyCrush-Shine";
+  width: 150px;
+  height: 300px;
+  border-radius: 200px 0 0 200px;
+  font-size: 25px;
+}
+
+#play .cards3 .div-btn3 .find:hover {
+  background-color: #F5B16C;
+  color: #2E7DFF;
+  font-size: 35px;
+}
+
+#play .cards3 .div-btn3 .next {
+  border: none;
+  background-color: #2E7DFF;
+  color: #F5B16C;
+  font-family: "BrighlyCrush-Shine";
+  width: 150px;
+  height: 300px;
+  border-radius: 0 200px 200px 0;
+  font-size: 25px;
+}
+
+#play .cards3 .div-btn3 .next:hover {
+  background-color: #F5B16C;
+  color: #2E7DFF;
+  font-size: 30px;
+}
+
+#result {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
