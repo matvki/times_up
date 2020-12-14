@@ -1,6 +1,6 @@
 # User Support
 Don't use the issue tracker for support questions.
-You can contact me at the following email address : m.vecchi@it-students.fr, t.vallet@it-students.fr, l.fabre@it-students.fr or p.gielly@it-students.fr, if you have installation problems, new features and software development questions.
+You can contact me at the following email address : m.vecchi@it-students.fr, t.vallet@it-students.fr, l.fabre@it-students.fr or p.gielly@it-students.fr, if you have installation problems, new features and web development questions.
 
 # Reporting a bug
 
@@ -14,7 +14,7 @@ File bug in the [the Issues tab ](https://github.com/matvki/times_up/issues). Pl
 
  # Feature requests
 
- Feature requests should be discussed with us on our [email address](/https://github.com/matvki/times_up/blob/master/CONTRIBUTING.md#User-Support). After they have been accepted, they can be added to the [the Issues tab ](https://github.com/matvki/times_up/issues).  
+ Feature requests should be discussed with us on our [email address](https://github.com/matvki/times_up/blob/dev/CONTRIBUTING.md#user-support). After they have been accepted, they can be added to the [the Issues tab ](https://github.com/matvki/times_up/issues).  
 
  Finally, when submitting a pull request, don't forget to verify that your code works.
 
@@ -25,4 +25,4 @@ If you want to start contributing to the project's code, please follow these gui
 * Bug fixes are always welcome. Start by reviewing the list of bugs.
 * A good way to easily start contributing is to pick and work on a [good first issue](https://github.com/matvki/times_up/labels/good%20first%20issue). We try to make these issues as clear as possible and provide basic info on how the code should be changed, and if something is unclear feel free to ask for more information on the issue.
 * Before adding a new feature, ask about it in [the Issues tab](https://github.com/matvki/times_up/issues) or check if existing discussions exist to make sure the new functionality is desired.
-
+* During your Pull Request, it is imperative to do this on the 'dev' branch of the Git Repo ! 
