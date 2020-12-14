@@ -36,7 +36,7 @@
             <p>Choix du type de carte :</p>
             <div>
                 <label for="animal">Animaux</label>
-                <input type="checkbox" name="animal" id="animal" value="animal" checked>
+                <input type="checkbox" name="categories" id="animal" value="animal">
             </div>
         </article>
         <article>
