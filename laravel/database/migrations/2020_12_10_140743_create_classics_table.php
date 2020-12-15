@@ -16,6 +16,11 @@ class CreateClassicsTable extends Migration
         Schema::create('classics', function (Blueprint $table) {
             $table->id();
             $table->string("card");
+            $table->integer("categorie_id")
+            ->references('id')
+            ->on('categories')
+            ->onDelete('restrict')
+            ->onUpdate('restrict');
             $table->timestamps();
         });
     }

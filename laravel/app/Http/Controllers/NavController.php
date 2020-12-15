@@ -1,7 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use App\Http\Controllers\Controller;
+use App\Models\Categorie;
 use App\Models\Classic;
 
 use Illuminate\Http\Request;
@@ -18,7 +20,7 @@ class NavController extends Controller
     {
         return view('choose');
     }
-    
+
     public function rules()
     {
         return view('rules');
@@ -26,16 +28,20 @@ class NavController extends Controller
 
     public function jeux(Request $request)
     {
-        $cardArray=Classic::selectCard($request);
-        return view('play', ['request' => $request] , ['cards' => $cardArray]);
+        if (($request->selectCard) == "yesCard") {
+            $cardArray = Categorie::getCards($request);
+        } else {
+            $cardArray = Classic::selectCard($request);
+        }
+        return view('play', ['request' => $request], ['cards' => $cardArray]);
     }
     public function results(Request $request)
     {
         return view('results', ['request' => $request]);
     }
 
-    public function admin(){
+    public function admin()
+    {
         return view('admin');
     }
-    
 }
