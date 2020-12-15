@@ -15,250 +15,250 @@ class TradeSeeder extends Seeder
     public function run()
     {
         $trade=[[
-            'id_classic' => "441",
+            'classics_id' => "441",
         ],
         [
-            'id_classic' => "442",
+            'classics_id' => "442",
         ],
         [
-            'id_classic' => "443",
+            'classics_id' => "443",
         ],
         [
-            'id_classic' => "444",
+            'classics_id' => "444",
         ],
         [
-            'id_classic' => "445",
+            'classics_id' => "445",
         ],
         [
-            'id_classic' => "446",
+            'classics_id' => "446",
         ],
         [
-            'id_classic' => "447",
+            'classics_id' => "447",
         ],
         [
-            'id_classic' => "448",
+            'classics_id' => "448",
         ],
         [
-            'id_classic' => "449",
+            'classics_id' => "449",
         ],
         [
-            'id_classic' => "450",
+            'classics_id' => "450",
         ],
         [
-            'id_classic' => "451",
+            'classics_id' => "451",
         ],
         [
-            'id_classic' => "452",
+            'classics_id' => "452",
         ],
         [
-            'id_classic' => "453",
+            'classics_id' => "453",
         ],
         [
-            'id_classic' => "453",
+            'classics_id' => "453",
         ],
         [
-            'id_classic' => "454",
+            'classics_id' => "454",
         ],
         [
-            'id_classic' => "455",
+            'classics_id' => "455",
         ],
         [
-            'id_classic' => "456",
+            'classics_id' => "456",
         ],
         [
-            'id_classic' => "457",
+            'classics_id' => "457",
         ],
         [
-            'id_classic' => "458",
+            'classics_id' => "458",
         ],
         [
-            'id_classic' => "459",
+            'classics_id' => "459",
         ],
         [
-            'id_classic' => "460",
+            'classics_id' => "460",
         ],
         [
-            'id_classic' => "461",
+            'classics_id' => "461",
         ],
         [
-            'id_classic' => "462",
+            'classics_id' => "462",
         ],
         [
-            'id_classic' => "463",
+            'classics_id' => "463",
         ],
         [
-            'id_classic' => "464",
+            'classics_id' => "464",
         ],
         [
-            'id_classic' => "465",
+            'classics_id' => "465",
         ],
         [
-            'id_classic' => "466",
+            'classics_id' => "466",
         ],
         [
-            'id_classic' => "467",
+            'classics_id' => "467",
         ],
         [
-            'id_classic' => "468",
+            'classics_id' => "468",
         ],
         [
-            'id_classic' => "469",
+            'classics_id' => "469",
         ],
         [
-            'id_classic' => "470",
+            'classics_id' => "470",
         ],
         [
-            'id_classic' => "471",
+            'classics_id' => "471",
         ],
         [
-            'id_classic' => "472",
+            'classics_id' => "472",
         ],
         [
-            'id_classic' => "473",
+            'classics_id' => "473",
         ],
         [
-            'id_classic' => "474",
+            'classics_id' => "474",
         ],
         [
-            'id_classic' => "475",
+            'classics_id' => "475",
         ],
         [
-            'id_classic' => "476",
+            'classics_id' => "476",
         ],
         [
-            'id_classic' => "477",
+            'classics_id' => "477",
         ],
         [
-            'id_classic' => "478",
+            'classics_id' => "478",
         ],
         [
-            'id_classic' => "479",
+            'classics_id' => "479",
         ],
         [
-            'id_classic' => "480",
+            'classics_id' => "480",
         ],
         [
-            'id_classic' => "481",
+            'classics_id' => "481",
         ],
         [
-            'id_classic' => "482",
+            'classics_id' => "482",
         ],
         [
-            'id_classic' => "483",
+            'classics_id' => "483",
         ],
         [
-            'id_classic' => "484",
+            'classics_id' => "484",
         ],
         [
-            'id_classic' => "485",
+            'classics_id' => "485",
         ],
         [
-            'id_classic' => "486",
+            'classics_id' => "486",
         ],
         [
-            'id_classic' => "487",
+            'classics_id' => "487",
         ],
         [
-            'id_classic' => "488",
+            'classics_id' => "488",
         ],
         [
-            'id_classic' => "489",
+            'classics_id' => "489",
         ],
         [
-            'id_classic' => "490",
+            'classics_id' => "490",
         ],
         [
-            'id_classic' => "491",
+            'classics_id' => "491",
         ],
         [
-            'id_classic' => "492",
+            'classics_id' => "492",
         ],
         [
-            'id_classic' => "493",
+            'classics_id' => "493",
         ],
         [
-            'id_classic' => "494",
+            'classics_id' => "494",
         ],
         [
-            'id_classic' => "495",
+            'classics_id' => "495",
         ],
         [
-            'id_classic' => "496",
+            'classics_id' => "496",
         ],
         [
-            'id_classic' => "497",
+            'classics_id' => "497",
         ],
         [
-            'id_classic' => "498",
+            'classics_id' => "498",
         ],
         [
-            'id_classic' => "499",
+            'classics_id' => "499",
         ],
         [
-            'id_classic' => "500",
+            'classics_id' => "500",
         ],
         [
-            'id_classic' => "501",
+            'classics_id' => "501",
         ],
         [
-            'id_classic' => "502",
+            'classics_id' => "502",
         ],
         [
-            'id_classic' => "503",
+            'classics_id' => "503",
         ],
         [
-            'id_classic' => "504",
+            'classics_id' => "504",
         ],
         [
-            'id_classic' => "505",
+            'classics_id' => "505",
         ],
         [
-            'id_classic' => "506",
+            'classics_id' => "506",
         ],
         [
-            'id_classic' => "507",
+            'classics_id' => "507",
         ],
         [
-            'id_classic' => "508",
+            'classics_id' => "508",
         ],
         [
-            'id_classic' => "509",
+            'classics_id' => "509",
         ],
         [
-            'id_classic' => "510",
+            'classics_id' => "510",
         ],
         [
-            'id_classic' => "511",
+            'classics_id' => "511",
         ],
         [
-            'id_classic' => "512",
+            'classics_id' => "512",
         ],
         [
-            'id_classic' => "513",
+            'classics_id' => "513",
         ],
         [
-            'id_classic' => "514",
+            'classics_id' => "514",
         ],
         [
-            'id_classic' => "515",
+            'classics_id' => "515",
         ],
         [
-            'id_classic' => "516",
+            'classics_id' => "516",
         ],
         [
-            'id_classic' => "517",
+            'classics_id' => "517",
         ],
         [
-            'id_classic' => "518",
+            'classics_id' => "518",
         ],
         [
-            'id_classic' => "519",
+            'classics_id' => "519",
         ],
         [
-            'id_classic' => "520",
+            'classics_id' => "520",
         ],
         [
-            'id_classic' => "521",
+            'classics_id' => "521",
         ]];
         DB::table('trades')->insert($trade);
     }

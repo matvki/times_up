@@ -115,7 +115,7 @@ class ClassicSeeder extends Seeder
             'card' => "Marlon Brando",
         ],
         [
-            'card' => "Le favuleux Destin d'Amelie Poulain ",
+            'card' => "Le fabuleux Destin d'Amelie Poulain ",
         ],
         [
             'card' => "Docteur Watson",
@@ -787,7 +787,7 @@ class ClassicSeeder extends Seeder
             'card' => "Les Chutes du Niagara",
         ],
         [
-            'card' => "Katsuni",
+            'card' => "Katsumi",
         ],
         [
             'card' => "Miss France",

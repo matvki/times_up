@@ -15,541 +15,541 @@ class PersonalitySeeder extends Seeder
     public function run()
     {
         $personality=[[
-            'id_classic' => "3",
+            'classics_id' => "3",
         ],
         [
-            'id_classic' => "6",
+            'classics_id' => "6",
         ],
         [
-            'id_classic' => "7",
+            'classics_id' => "7",
         ],
         [
-            'id_classic' => "12",
+            'classics_id' => "12",
         ],
         [
-            'id_classic' => "14",
+            'classics_id' => "14",
         ],
         [
-            'id_classic' => "15",
+            'classics_id' => "15",
         ],
         [
-            'id_classic' => "19",
+            'classics_id' => "19",
         ],
         [
-            'id_classic' => "23",
+            'classics_id' => "23",
         ],
         [
-            'id_classic' => "24",
+            'classics_id' => "24",
         ],
         [
-            'id_classic' => "25",
+            'classics_id' => "25",
         ],
         [
-            'id_classic' => "26",
+            'classics_id' => "26",
         ],
         [
-            'id_classic' => "33",
+            'classics_id' => "33",
         ],
         [
-            'id_classic' => "36",
+            'classics_id' => "36",
         ],
         [
-            'id_classic' => "37",
+            'classics_id' => "37",
         ],
         [
-            'id_classic' => "39",
+            'classics_id' => "39",
         ],
         [
-            'id_classic' => "40",
+            'classics_id' => "40",
         ],
         [
-            'id_classic' => "41",
+            'classics_id' => "41",
         ],
         [
-            'id_classic' => "46",
+            'classics_id' => "46",
         ],
         [
-            'id_classic' => "48",
+            'classics_id' => "48",
         ],
         [
-            'id_classic' => "49",
+            'classics_id' => "49",
         ],
         [
-            'id_classic' => "50",
+            'classics_id' => "50",
         ],
         [
-            'id_classic' => "51",
+            'classics_id' => "51",
         ],
         [
-            'id_classic' => "53",
+            'classics_id' => "53",
         ],
         [
-            'id_classic' => "56",
+            'classics_id' => "56",
         ],
         [
-            'id_classic' => "57",
+            'classics_id' => "57",
         ],
         [
-            'id_classic' => "60",
+            'classics_id' => "60",
         ],
         [
-            'id_classic' => "66",
+            'classics_id' => "66",
         ],
         [
-            'id_classic' => "67",
+            'classics_id' => "67",
         ],
         [
-            'id_classic' => "69",
+            'classics_id' => "69",
         ],
         [
-            'id_classic' => "70",
+            'classics_id' => "70",
         ],
         [
-            'id_classic' => "76",
+            'classics_id' => "76",
         ],
         [
-            'id_classic' => "77",
+            'classics_id' => "77",
         ],
         [
-            'id_classic' => "78",
+            'classics_id' => "78",
         ],
         [
-            'id_classic' => "80",
+            'classics_id' => "80",
         ],
         [
-            'id_classic' => "84",
+            'classics_id' => "84",
         ],
         [
-            'id_classic' => "87",
+            'classics_id' => "87",
         ],
         [
-            'id_classic' => "88",
+            'classics_id' => "88",
         ],
         [
-            'id_classic' => "89",
+            'classics_id' => "89",
         ],
         [
-            'id_classic' => "90",
+            'classics_id' => "90",
         ],
         [
-            'id_classic' => "91",
+            'classics_id' => "91",
         ],
         [
-            'id_classic' => "92",
+            'classics_id' => "92",
         ],
         [
-            'id_classic' => "95",
+            'classics_id' => "95",
         ],
         [
-            'id_classic' => "96",
+            'classics_id' => "96",
         ],
         [
-            'id_classic' => "98",
+            'classics_id' => "98",
         ],
         [
-            'id_classic' => "100",
+            'classics_id' => "100",
         ],
         [
-            'id_classic' => "101",
+            'classics_id' => "101",
         ],
         [
-            'id_classic' => "102",
+            'classics_id' => "102",
         ],
         [
-            'id_classic' => "105",
+            'classics_id' => "105",
         ],
         [
-            'id_classic' => "107",
+            'classics_id' => "107",
         ],
         [
-            'id_classic' => "113",
+            'classics_id' => "113",
         ],
         [
-            'id_classic' => "116",
+            'classics_id' => "116",
         ],
         [
-            'id_classic' => "119",
+            'classics_id' => "119",
         ],
         [
-            'id_classic' => "124",
+            'classics_id' => "124",
         ],
         [
-            'id_classic' => "129",
+            'classics_id' => "129",
         ],
         [
-            'id_classic' => "130",
+            'classics_id' => "130",
         ],
         [
-            'id_classic' => "132",
+            'classics_id' => "132",
         ],
         [
-            'id_classic' => "133",
+            'classics_id' => "133",
         ],
         [
-            'id_classic' => "135",
+            'classics_id' => "135",
         ],
         [
-            'id_classic' => "139",
+            'classics_id' => "139",
         ],
         [
-            'id_classic' => "140",
+            'classics_id' => "140",
         ],
         [
-            'id_classic' => "141",
+            'classics_id' => "141",
         ],
         [
-            'id_classic' => "145",
+            'classics_id' => "145",
         ],
         [
-            'id_classic' => "147",
+            'classics_id' => "147",
         ],
         [
-            'id_classic' => "151",
+            'classics_id' => "151",
         ],
         [
-            'id_classic' => "152",
+            'classics_id' => "152",
         ],
         [
-            'id_classic' => "154",
+            'classics_id' => "154",
         ],
         [
-            'id_classic' => "157",
+            'classics_id' => "157",
         ],
         [
-            'id_classic' => "159",
+            'classics_id' => "159",
         ],
         [
-            'id_classic' => "160",
+            'classics_id' => "160",
         ],
         [
-            'id_classic' => "161",
+            'classics_id' => "161",
         ],
         [
-            'id_classic' => "164",
+            'classics_id' => "164",
         ],
         [
-            'id_classic' => "166",
+            'classics_id' => "166",
         ],
         [
-            'id_classic' => "169",
+            'classics_id' => "169",
         ],
         [
-            'id_classic' => "170",
+            'classics_id' => "170",
         ],
         [
-            'id_classic' => "174",
+            'classics_id' => "174",
         ],
         [
-            'id_classic' => "177",
+            'classics_id' => "177",
         ],
         [
-            'id_classic' => "185",
+            'classics_id' => "185",
         ],
         [
-            'id_classic' => "186",
+            'classics_id' => "186",
         ],
         [
-            'id_classic' => "190",
+            'classics_id' => "190",
         ],
         [
-            'id_classic' => "192",
+            'classics_id' => "192",
         ],
         [
-            'id_classic' => "195",
+            'classics_id' => "195",
         ],
         [
-            'id_classic' => "201",
+            'classics_id' => "201",
         ],
         [
-            'id_classic' => "204",
+            'classics_id' => "204",
         ],
         [
-            'id_classic' => "213",
+            'classics_id' => "213",
         ],
         [
-            'id_classic' => "215",
+            'classics_id' => "215",
         ],
         [
-            'id_classic' => "216",
+            'classics_id' => "216",
         ],
         [
-            'id_classic' => "218",
+            'classics_id' => "218",
         ],
         [
-            'id_classic' => "219",
+            'classics_id' => "219",
         ],
         [
-            'id_classic' => "220",
+            'classics_id' => "220",
         ],
         [
-            'id_classic' => "221",
+            'classics_id' => "221",
         ],
         [
-            'id_classic' => "225",
+            'classics_id' => "225",
         ],
         [
-            'id_classic' => "228",
+            'classics_id' => "228",
         ],
         [
-            'id_classic' => "229",
+            'classics_id' => "229",
         ],
         [
-            'id_classic' => "232",
+            'classics_id' => "232",
         ],
         [
-            'id_classic' => "234",
+            'classics_id' => "234",
         ],
         [
-            'id_classic' => "235",
+            'classics_id' => "235",
         ],
         [
-            'id_classic' => "237",
+            'classics_id' => "237",
         ],
         [
-            'id_classic' => "238",
+            'classics_id' => "238",
         ],
         [
-            'id_classic' => "239",
+            'classics_id' => "239",
         ],
         [
-            'id_classic' => "242",
+            'classics_id' => "242",
         ],
         [
-            'id_classic' => "248",
+            'classics_id' => "248",
         ],
         [
-            'id_classic' => "252",
+            'classics_id' => "252",
         ],
         [
-            'id_classic' => "258",
+            'classics_id' => "258",
         ],
         [
-            'id_classic' => "261",
+            'classics_id' => "261",
         ],
         [
-            'id_classic' => "263",
+            'classics_id' => "263",
         ],
         [
-            'id_classic' => "265",
+            'classics_id' => "265",
         ],
         [
-            'id_classic' => "266",
+            'classics_id' => "266",
         ],
         [
-            'id_classic' => "268",
+            'classics_id' => "268",
         ],
         [
-            'id_classic' => "274",
+            'classics_id' => "274",
         ],
         [
-            'id_classic' => "275",
+            'classics_id' => "275",
         ],
         [
-            'id_classic' => "276",
+            'classics_id' => "276",
         ],
         [
-            'id_classic' => "278",
+            'classics_id' => "278",
         ],
         [
-            'id_classic' => "279",
+            'classics_id' => "279",
         ],
         [
-            'id_classic' => "281",
+            'classics_id' => "281",
         ],
         [
-            'id_classic' => "283",
+            'classics_id' => "283",
         ],
         [
-            'id_classic' => "285",
+            'classics_id' => "285",
         ],
         [
-            'id_classic' => "289",
+            'classics_id' => "289",
         ],
         [
-            'id_classic' => "296",
+            'classics_id' => "296",
         ],
         [
-            'id_classic' => "297",
+            'classics_id' => "297",
         ],
         [
-            'id_classic' => "302",
+            'classics_id' => "302",
         ],
         [
-            'id_classic' => "304",
+            'classics_id' => "304",
         ],
         [
-            'id_classic' => "305",
+            'classics_id' => "305",
         ],
         [
-            'id_classic' => "307",
+            'classics_id' => "307",
         ],
         [
-            'id_classic' => "308",
+            'classics_id' => "308",
         ],
         [
-            'id_classic' => "311",
+            'classics_id' => "311",
         ],
         [
-            'id_classic' => "314",
+            'classics_id' => "314",
         ],
         [
-            'id_classic' => "315",
+            'classics_id' => "315",
         ],
         [
-            'id_classic' => "316",
+            'classics_id' => "316",
         ],
         [
-            'id_classic' => "317",
+            'classics_id' => "317",
         ],
         [
-            'id_classic' => "321",
+            'classics_id' => "321",
         ],
         [
-            'id_classic' => "323",
+            'classics_id' => "323",
         ],
         [
-            'id_classic' => "325",
+            'classics_id' => "325",
         ],
         [
-            'id_classic' => "326",
+            'classics_id' => "326",
         ],
         [
-            'id_classic' => "327",
+            'classics_id' => "327",
         ],
         [
-            'id_classic' => "328",
+            'classics_id' => "328",
         ],
         [
-            'id_classic' => "329",
+            'classics_id' => "329",
         ],
         [
-            'id_classic' => "330",
+            'classics_id' => "330",
         ],
         [
-            'id_classic' => "333",
+            'classics_id' => "333",
         ],
         [
-            'id_classic' => "334",
+            'classics_id' => "334",
         ],
         [
-            'id_classic' => "335",
+            'classics_id' => "335",
         ],
         [
-            'id_classic' => "336",
+            'classics_id' => "336",
         ],
         [
-            'id_classic' => "339",
+            'classics_id' => "339",
         ],
         [
-            'id_classic' => "340",
+            'classics_id' => "340",
         ],
         [
-            'id_classic' => "342",
+            'classics_id' => "342",
         ],
         [
-            'id_classic' => "343",
+            'classics_id' => "343",
         ],
         [
-            'id_classic' => "345",
+            'classics_id' => "345",
         ],
         [
-            'id_classic' => "347",
+            'classics_id' => "347",
         ],
         [
-            'id_classic' => "348",
+            'classics_id' => "348",
         ],
         [
-            'id_classic' => "350",
+            'classics_id' => "350",
         ],
         [
-            'id_classic' => "352",
+            'classics_id' => "352",
         ],
         [
-            'id_classic' => "357",
+            'classics_id' => "357",
         ],
         [
-            'id_classic' => "358",
+            'classics_id' => "358",
         ],
         [
-            'id_classic' => "359",
+            'classics_id' => "359",
         ],
         [
-            'id_classic' => "368",
+            'classics_id' => "368",
         ],
         [
-            'id_classic' => "370",
+            'classics_id' => "370",
         ],
         [
-            'id_classic' => "371",
+            'classics_id' => "371",
         ],
         [
-            'id_classic' => "376",
+            'classics_id' => "376",
         ],
         [
-            'id_classic' => "379",
+            'classics_id' => "379",
         ],
         [
-            'id_classic' => "381",
+            'classics_id' => "381",
         ],
         [
-            'id_classic' => "388",
+            'classics_id' => "388",
         ],
         [
-            'id_classic' => "389",
+            'classics_id' => "389",
         ],
         [
-            'id_classic' => "392",
+            'classics_id' => "392",
         ],
         [
-            'id_classic' => "400",
+            'classics_id' => "400",
         ],
         [
-            'id_classic' => "405",
+            'classics_id' => "405",
         ],
         [
-            'id_classic' => "406",
+            'classics_id' => "406",
         ],
         [
-            'id_classic' => "412",
+            'classics_id' => "412",
         ],
         [
-            'id_classic' => "416",
+            'classics_id' => "416",
         ],
         [
-            'id_classic' => "418",
+            'classics_id' => "418",
         ],
         [
-            'id_classic' => "419",
+            'classics_id' => "419",
         ],
         [
-            'id_classic' => "420",
+            'classics_id' => "420",
         ],
         [
-            'id_classic' => "422",
+            'classics_id' => "422",
         ],
         [
-            'id_classic' => "426",
+            'classics_id' => "426",
         ],
         [
-            'id_classic' => "427",
+            'classics_id' => "427",
         ],
         [
-            'id_classic' => "428",
+            'classics_id' => "428",
         ],
         [
-            'id_classic' => "429",
+            'classics_id' => "429",
         ],
         [
-            'id_classic' => "431",
+            'classics_id' => "431",
         ],
         [
-            'id_classic' => "432",
+            'classics_id' => "432",
         ],
         [
-            'id_classic' => "434",
+            'classics_id' => "434",
         ],
         [
-            'id_classic' => "435",
+            'classics_id' => "435",
         ]];
         DB::table('personalities')->insert($personality);
     }

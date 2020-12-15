@@ -20,33 +20,33 @@
             </select>
         </article>
         <article>
-            <p>Voulez-vous choisir vos cartes ?</p>
+            <p>Voulez-vous choisir vos catégories de cartes ?</p>
             <div>
                 <div>
-                    <input type="radio" name="typeCard" id="yesCard" value="yesCard" checked>
+                    <input type="radio" name="selectCard" id="yesCard" value="yesCard" checked>
                     <label for="yesCard">oui</label>
                 </div>
                 <div>
-                    <input type="radio" name="typeCard" id="noCard" value="noCard">
+                    <input type="radio" name="selectCard" id="noCard" value="noCard">
                     <label for="noCard">non</label>
                 </div>
             </div>
         </article>
-        <article id="chooseCard">
-            <p>Choix du type de carte :</p>
-            <div>
-                <label for="animal">Animaux</label>
-                <input type="checkbox" name="categories" id="animal" value="animal">
-            </div>
+        <article class="select">
+            <label for="typeCard">Choix du nombre de cartes :</label>
+            <select name="typeCard" id="typeCard">
+                <option value="">--choisir un nombre--</option>
+                <option value="personalities">personalitiées</option>
+                <option value="job">métiers</option>
+            </select>
         </article>
-        <article>
-            <p>Choix du nombre d'équipe :</p>
-            <div>
-                <div>
-                    <label for="nbrTeam">Veuillez entrer un nombre d'équipe participant a la partie : </label>
-                    <input type="number" name="nbrTeam" id="nbrTeam">
-                </div>
-            </div>
+        <article class="select">
+            <label for="nbrTeam">Choix du nombre d'équipes' :</label>
+            <select name="nbrTeam" id="nbrTeam">
+                <option value="">--choisir un nombre--</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
         </article>
         <input type="submit" value="Valider">
     </form>
