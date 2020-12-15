@@ -32,12 +32,13 @@
                 </div>
             </div>
         </article>
-        <article class="select">
+        <article class="select" id="chooseCard">
             <label for="typeCard">Choix du nombre de cartes :</label>
             <select name="typeCard" id="typeCard">
                 <option value="">--choisir un nombre--</option>
-                <option value="personalities">personalitiées</option>
-                <option value="job">métiers</option>
+                <option value="1">personalitiées</option>
+                <option value="2">métiers</option>
+                <option value="3">annimaux</option>
             </select>
         </article>
         <article class="select">
