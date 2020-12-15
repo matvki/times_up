@@ -19,7 +19,9 @@ class CategorieSeeder extends Seeder
         ],
         [
             'name' => 'job'
-        ],
+        ],[
+            'name' => 'annimal'
+        ]
     ];
         DB::table('categories')->insert($categories);
     }
