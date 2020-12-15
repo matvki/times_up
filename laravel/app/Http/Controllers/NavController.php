@@ -46,6 +46,10 @@ class NavController extends Controller
             return view('play', ['request' => $request], ['cards' => $cardArray]);
         }
     }
+    public function result(Request $request)
+    {
+        return view('result', ['request' => $request]);
+    }
 
     public function admin()
     {

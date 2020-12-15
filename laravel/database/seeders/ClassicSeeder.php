@@ -1577,7 +1577,321 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Controleur",
-        ]];
+        ],
+        [
+            'card' => "Boule à thé",
+        ],
+        [
+            'card' => "Porte manteau",
+        ],
+        [
+            'card' => "Tasse",
+        ],
+        [
+            'card' => "Chaise",
+        ],
+        [
+            'card' => "Trombone",
+        ],
+        [
+            'card' => "Ecouteurs",
+        ],
+        [
+            'card' => "Voiture",
+        ],
+        [
+            'card' => "Capuche",
+        ],
+        [
+            'card' => "Chaise",
+        ],
+        [
+            'card' => "Passoire",
+        ],
+        [
+            'card' => "Sapin",
+        ],
+        [
+            'card' => "Brosse à dent",
+        ],
+        [
+            'card' => "Carte bancaire",
+        ],
+        [
+            'card' => "Pelotte de laine",
+        ],
+        [
+            'card' => "Lanterne",
+        ],
+        [
+            'card' => "Boxer",
+        ],
+        [
+            'card' => "Photo",
+        ],
+        [
+            'card' => "Biberon",
+        ],
+        [
+            'card' => "Bar de pole dance",
+        ],
+        [
+            'card' => "Tire-bouchons",
+        ],
+        [
+            'card' => "Chaussons",
+        ],
+        [
+            'card' => "Glaçon",
+        ],
+        [
+            'card' => "Pipe",
+        ],
+        [
+            'card' => "Shampooing",
+        ],
+        [
+            'card' => "Cravate",
+        ],
+        [
+            'card' => "Marionnette",
+        ],
+        [
+            'card' => "Pomme de pain",
+        ],
+        [
+            'card' => "Talky walky",
+        ],
+        [
+            'card' => "Chat",
+        ],
+        [
+            'card' => "Chien",
+        ],
+        [
+            'card' => "Souris",
+        ],
+        [
+            'card' => "Rat",
+        ],
+        [
+            'card' => "Renard",
+        ],
+        [
+            'card' => "Poule",
+        ],
+        [
+            'card' => "Vache",
+        ],
+        [
+            'card' => "Coq",
+        ],
+        [
+            'card' => "Dindon",
+        ],
+        [
+            'card' => "Elan",
+        ],
+        [
+            'card' => "Ours",
+        ],
+        [
+            'card' => "Lion",
+        ],
+        [
+            'card' => "Tigre",
+        ],
+        [
+            'card' => "Canard",
+        ],
+        [
+            'card' => "Flamand rose",
+        ],
+        [
+            'card' => "Eléphant",
+        ],
+        [
+            'card' => "Panthère",
+        ],
+        [
+            'card' => "Jaguar",
+        ],
+        [
+            'card' => "Lynx",
+        ],
+        [
+            'card' => "Lapin",
+        ],
+        [
+            'card' => "Mouton",
+        ],
+        [
+            'card' => "Chèvre",
+        ],
+        [
+            'card' => "Bouc",
+        ],
+        [
+            'card' => "Boeuf",
+        ],
+        [
+            'card' => "Koala",
+        ],
+        [
+            'card' => "Paresseux",
+        ],
+        [
+            'card' => "Girafe",
+        ],
+        [
+            'card' => "Zèbre",
+        ],
+        [
+            'card' => "Léopard",
+        ],
+        [
+            'card' => "Hippopotame",
+        ],
+        [
+            'card' => "Toucan",
+        ],
+        [
+            'card' => "Paon",
+        ],
+        [
+            'card' => "Singe",
+        ],
+        [
+            'card' => "Gorille",
+        ],
+        [
+            'card' => "Loup",
+        ],
+        [
+            'card' => "Crocodile",
+        ],
+        [
+            'card' => "Tortue",
+        ],
+        [
+            'card' => "Lama",
+        ],
+        [
+            'card' => "Chameau",
+        ],
+        [
+            'card' => "Dromadaire",
+        ],
+        [
+            'card' => "Hyéti",
+        ],
+        [
+            'card' => "Cheval",
+        ],
+        [
+            'card' => "Furet",
+        ],
+        [
+            'card' => "Poisson",
+        ],
+        [
+            'card' => "Requin",
+        ],
+        [
+            'card' => "Baleine",
+        ],
+        [
+            'card' => "Dauphin",
+        ],
+        [
+            'card' => "Âne",
+        ],
+        [
+            'card' => "Mouette",
+        ],
+        [
+            'card' => "Panda",
+        ],
+        [
+            'card' => "Caméléon",
+        ],
+        [
+            'card' => "Marmotte",
+        ],
+        [
+            'card' => "Pigeon",
+        ],
+        [
+            'card' => "Renne",
+        ],
+        [
+            'card' => "Cochon",
+        ],
+        [
+            'card' => "Poussin",
+        ],
+        [
+            'card' => "Pingouin",
+        ],
+        [
+            'card' => "Castor",
+        ],
+        [
+            'card' => "Raton laveur",
+        ],
+        [
+            'card' => "Ornitorinque",
+        ],
+        [
+            'card' => "Truite",
+        ],
+        [
+            'card' => "Saumon",
+        ],
+        [
+            'card' => "Oie",
+        ],
+        [
+            'card' => "Pivert",
+        ],
+        [
+            'card' => "Grenouille",
+        ],
+        [
+            'card' => "Crapaud",
+        ],
+        [
+            'card' => "Fenec",
+        ],
+        [
+            'card' => "Phoenix",
+        ],
+        [
+            'card' => "Hippogriphe",
+        ],
+        [
+            'card' => "Licorne",
+        ],
+        [
+            'card' => "Centaure",
+        ],
+        [
+            'card' => "Tatoo",
+        ],
+        [
+            'card' => "Phasme",
+        ],
+
+
+
+
+        
+        
+    
+    
+    
+    
+    ];
         DB::table('classics')->insert($classics);
         DB::table('admins')->insert([
             'username' => "Sephorquoi",

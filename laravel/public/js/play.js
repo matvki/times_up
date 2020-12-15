@@ -1,5 +1,10 @@
 let i=0;
 let card1=document.querySelectorAll(".card1");
+let nbrTeam=document.querySelector(".nbr-team").textContent
+let team1=0;
+let team2=0;
+let team3=0;
+let chooseTeam=0;
 
 
 function play(){
@@ -13,7 +18,6 @@ function play(){
 function next1(){
 
     restCard1=document.querySelectorAll(".card1").length
-    console.log(restCard1)
     if (restCard1>1) {
         
         if (i>restCard1-2) {
@@ -33,8 +37,6 @@ function next1(){
 
 function find1(time){
     restCard1=document.querySelectorAll(".card1").length
-    console.log(restCard1)
-
     if(restCard1<1){
         document.querySelectorAll(".card1")[i].classList.add('hide');
         document.querySelector(".div-btn1").classList.remove('flex');
@@ -49,6 +51,13 @@ function find1(time){
         }else{
             
         }
+        if (nbrTeam=="2") {
+            
+            countPoint2();
+        }else{
+            countPoint3();
+        }
+
         document.querySelectorAll(".card1")[i].remove();
         document.querySelectorAll(".card1")[i].classList.remove('hide')
     }
@@ -68,6 +77,7 @@ function timer1(time){
         setTimeout(function(){ document.querySelectorAll(".word")[i].classList.remove('white'); }, 200);
         setTimeout(next1, 200);
         j=60;
+        chooseTeam=chooseTeam+1;
         setTimeout(viewTimer1, 200);
     }
 }
@@ -124,7 +134,6 @@ function next2(){
 
 function find2(time){
     restCard2=document.querySelectorAll(".card2").length
-    console.log(restCard2);
     if(restCard2<1){
         document.querySelectorAll(".card2")[k].classList.add('hide');
         document.querySelector(".div-btn2").classList.remove('flex');
@@ -138,6 +147,12 @@ function find2(time){
             document.querySelectorAll(".card2")[restCard2-1].classList.add('hide');
         }else{
             
+        }
+        if (nbrTeam=="2") {
+            
+            countPoint2();
+        }else{
+            countPoint3();
         }
         document.querySelectorAll(".card2")[k].remove();
         document.querySelectorAll(".card2")[k].classList.remove('hide')
@@ -158,6 +173,7 @@ function timer2(time){
         setTimeout(function(){ document.querySelectorAll(".word")[k].classList.remove('white'); }, 200);
         setTimeout(next2, 200);
         l=60;
+        chooseTeam=chooseTeam+1;
         setTimeout(viewTimer2, 200);
     }
 }
@@ -208,7 +224,6 @@ function next3(){
 function find3(time){
     restCard3=document.querySelectorAll(".card3").length
     if(restCard3<1){
-        console.log(m);
         document.querySelectorAll(".card3")[m].classList.add('hide');
         document.querySelector(".div-btn3").classList.remove('flex');
         document.querySelector(".div-btn3").classList.add('hide');
@@ -221,6 +236,12 @@ function find3(time){
             document.querySelectorAll(".card3")[restCard3-1].classList.add('hide');
         }else{
             
+        }
+        if (nbrTeam=="2") {
+            
+            countPoint2();
+        }else{
+            countPoint3();
         }
         document.querySelectorAll(".card3")[m].remove();
         document.querySelectorAll(".card3")[m].classList.remove('hide')
@@ -243,9 +264,9 @@ function timer3(time){
         if (m!=0) {
             setTimeout(function(){ document.querySelectorAll(".word")[m].classList.remove('white'); }, 200);
         }
-        console.log(restCard3);
         setTimeout(next3, 200);
         n=60;
+        chooseTeam=chooseTeam+1;
         setTimeout(viewTimer3, 200);
     }
 }
@@ -258,5 +279,48 @@ function viewTimer3(){
     }else{
         document.querySelector('#play').classList.remove('flex')
         document.querySelector('#play').classList.add('hide')
+        
+        if (nbrTeam=="2") {
+            
+            document.querySelector('.result-team1').value = team1
+            document.querySelector('.result-team2').value = team2
+        }else{
+            document.querySelector('.result-team1').value = team1
+            document.querySelector('.result-team2').value = team2
+            document.querySelector('.result-team3').value = team3
+        }
+        document.querySelector('#result').classList.remove('hide')
+        document.querySelector('#result').classList.add('flex')
+
     }
 }
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+//                                     count point 
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
+function countPoint2(){
+    if (chooseTeam%2==0) {
+        team1=team1+1
+    }else{
+        team2=team2+1
+    }
+
+
+} 
+
+function countPoint3(){
+    switch (chooseTeam%3) {
+        case 0:
+            team1=team1+1
+            break;
+        case 1:
+            team2=team2+1
+            break;
+        case 2:
+            team3=team3+1
+            break;
+    }
+} 

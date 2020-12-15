@@ -17,5 +17,6 @@ class DatabaseSeeder extends Seeder
             ClassicSeeder::class,
             PersonalitySeeder::class,
             TradeSeeder::class,
+            AnimalSeeder::class,
         ]);    }
 }

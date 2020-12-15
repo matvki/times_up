@@ -4,7 +4,7 @@
 
 @section('content')
     <section class="flex" id="play">
-
+    <p class="nbr-team hide">{{$request->nbrTeam}}</p>
         <div class="start flex ">
             <h1>Êtes-vous prêt?</h1>
             <input type="button" value="Start" onclick="play(); viewTimer1();">
@@ -76,9 +76,13 @@
         </div>
     
     </section>
-    <section class="flex" id="results">
-        <form action="">
+    <section class="hide" id="results">
+        <h1>Félicitation la partie est Terminer</h1>
+        <form action="/resultats" method="POST">
             @csrf
+            <input class="result-team1" type="hidden" value="">
+            <input class="result-team2" type="hidden" value="">
+            <input class="result-team3" type="hidden" value="">
             <input type="submit" value="Résultats">
         </form>
     </section>
