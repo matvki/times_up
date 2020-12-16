@@ -15,8 +15,6 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             ClassicSeeder::class,
-            PersonalitySeeder::class,
-            TradeSeeder::class,
-            AnimalSeeder::class,
+            CategorieSeeder::class,
         ]);    }
 }

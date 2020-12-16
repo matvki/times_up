@@ -6,14 +6,34 @@
 
 @section('content')
 <main>
+
     <div>
         <div>
-            <p>
-                @if ($request->team1 > $request2->team2 ou  )
-                    
-                @else
-                    
-                @endif
+            @if ($request->team1 > $request->team2  )
+                <p></p>
+            @else
+                <p></p>
+            @endif
+            </p>
+            <img src="/img/podium2.png" alt="">
+        </div>
+        <div>
+            <p>45</p>
+            <img src="/img/podium1.png" alt="">
+        </div>
+        <div>
+            <p>34</p>
+            <img src="/img/podium3.png" alt="">
+        </div>
+    </div>
+
+    <div>
+        <div>
+            @if ($request->team1 > $request2->team2  )
+                <p></p>
+            @else
+                <p></p>
+            @endif
             </p>
             <img src="/img/podium2.png" alt="">
         </div>

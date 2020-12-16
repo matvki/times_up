@@ -19,11 +19,10 @@ Route::get('/', [NavController::class, 'welcome']);
 Route::get('/mode_de_jeux', [NavController::class, 'choose']);
 Route::get('/les_regles', [NavController::class, 'rules']);
 Route::get('/admin', [NavController::class, 'admin']);
-Route::get('/results', [NavController::class, 'results']);
 
 
 Route::post('/jeux', [NavController::class, 'jeux']);
-Route::post('/resultats', [NavController::class, 'result']);
+Route::post('/resultats', [NavController::class, 'results']);
 
 Route::post('/login', [ActionController::class, 'login']);
 
