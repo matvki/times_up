@@ -63,7 +63,7 @@ function find1(time){
     }
 }
 
-j=60;
+j=4;
 function timer1(time){
     if (j!=0) {
         
@@ -76,9 +76,8 @@ function timer1(time){
         setTimeout(function(){ alert("le temps est ecouler c'est à l'équipe suivante"); }, 200);
         setTimeout(function(){ document.querySelectorAll(".word")[i].classList.remove('white'); }, 200);
         setTimeout(next1, 200);
-        j=60;
+        j=4;
         chooseTeam=chooseTeam+1;
-        setTimeout(viewTimer1, 200);
     }
 }
 
@@ -159,7 +158,7 @@ function find2(time){
     }
 }
 
-l=60;
+l=4;
 function timer2(time){
     if (l!=0) {
         
@@ -172,7 +171,7 @@ function timer2(time){
         setTimeout(function(){ alert("le temps est ecouler c'est à l'équipe suivante"); }, 200);
         setTimeout(function(){ document.querySelectorAll(".word")[k].classList.remove('white'); }, 200);
         setTimeout(next2, 200);
-        l=60;
+        l=4;
         chooseTeam=chooseTeam+1;
         setTimeout(viewTimer2, 200);
     }
@@ -248,7 +247,7 @@ function find3(time){
     }
 }
 
-n=60;
+n=4;
 function timer3(time){
     if (n!=0) {
         
@@ -265,7 +264,7 @@ function timer3(time){
             setTimeout(function(){ document.querySelectorAll(".word")[m].classList.remove('white'); }, 200);
         }
         setTimeout(next3, 200);
-        n=60;
+        n=4;
         chooseTeam=chooseTeam+1;
         setTimeout(viewTimer3, 200);
     }

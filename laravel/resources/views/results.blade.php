@@ -29,7 +29,7 @@
 
     <div>
         <div>
-            @if ($request->team1 > $request2->team2  )
+            @if ($request->team1 > $request->team2  )
                 <p></p>
             @else
                 <p></p>
