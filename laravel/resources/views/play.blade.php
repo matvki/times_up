@@ -3,6 +3,7 @@
 @section('css', '/css/play.css')
 
 @section('content')
+
 <?php 
 if (($request->selectCard) == "yesCard") { ?>
     <section class="flex" id="play">
@@ -173,6 +174,8 @@ if (($request->selectCard) == "yesCard") { ?>
         </form>
     </section>
 <?php } ?>
+
+
 
     
 @endsection
