@@ -286,8 +286,8 @@ function viewTimer3(){
             document.querySelector('.result-team2').value = team2
             document.querySelector('.result-team3').value = team3
         }
-        document.querySelector('#result').classList.remove('hide')
-        document.querySelector('#result').classList.add('flex')
+        document.querySelector('#results').classList.remove('hide')
+        document.querySelector('#results').classList.add('flex')
 
     }
 }

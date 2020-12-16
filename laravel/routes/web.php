@@ -22,6 +22,8 @@ Route::get('/admin', [NavController::class, 'admin']);
 
 
 Route::post('/jeux', [NavController::class, 'jeux']);
-Route::post('/resultats', [NavController::class, 'result']);
+
+Route::post('/resultats', [NavController::class, 'results']);
+
 Route::post('/login', [ActionController::class, 'login']);
 
