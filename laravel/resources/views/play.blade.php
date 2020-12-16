@@ -168,6 +168,7 @@ if (($request->selectCard) == "yesCard") { ?>
             <input class="result-team1" type="hidden" value="">
             <input class="result-team2" type="hidden" value="">
             <input class="result-team3" type="hidden" value="">
+            <input type="text">
             <input type="submit" value="Résultats">
         </form>
     </section>
