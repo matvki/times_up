@@ -1,0 +1,9 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "BrighlyCrush-Shine";
+
+  src: url("./fonts/BrightlyCrushShine.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/BrightlyCrushShine.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

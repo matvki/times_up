@@ -32,5 +32,14 @@ class Classic extends Model
         }
         return $cardArray;
     }
+    public static function getAll(){
+        return Classic::all();
+    }
+    public static function addOne($request){
+        $newCard = new Classic;
+        $newCard->card = $request->name;
+        $newCard->save();
+        return;
+    }
 
 }

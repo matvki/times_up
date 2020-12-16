@@ -9,118 +9,49 @@
 </section>
 <section id="form" class="container">
     <form action="/jeux" method="post">
-    @csrf
-        <article>
-            <label for="nbrPlayer">Choix du nombre de participant :</label>
-            <select name="nbrPlayer" id="nbrPlayer">
-                <option value="">--Veuillez choisir un nombre valide--</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-                <option value="12">12</option>
-                <option value="13">13</option>
-                <option value="14">14</option>
-                <option value="15">15</option>
-            </select>
-        </article>
-        <article>
+        @csrf
+        <article class="select">
             <label for="nbrCard">Choix du nombre de cartes :</label>
             <select name="nbrCard" id="nbrCard">
-                <option value="">--Veuillez choisir un nombre valide--</option>
+                <option value="">--choisir un nombre--</option>
                 <option value="21">21</option>
                 <option value="31">31</option>
                 <option value="41">41</option>
             </select>
         </article>
         <article>
-            <p>Voulez-vous choisir vos cartes ?</p>
+            <p>Voulez-vous choisir vos catégories de cartes ?</p>
             <div>
                 <div>
-                    <input type="radio" name="typeCard" id="yesCard" value="yesCard" checked>
+                    <input type="radio" name="selectCard" id="yesCard" value="yesCard" checked>
                     <label for="yesCard">oui</label>
                 </div>
                 <div>
-                    <input type="radio" name="typeCard" id="noCard" value="noCard">
+                    <input type="radio" name="selectCard" id="noCard" value="noCard">
                     <label for="noCard">non</label>
                 </div>
             </div>
         </article>
-        <article id="chooseCard">
-            <p>Choix du type de carte :</p>
-            <div>
-                <label for="animal">Animaux</label>
-                <input type="checkbox" name="animal" id="animal" value="animal" checked>
-            </div>
+        <article class="select" id="chooseCard">
+            <label for="typeCard">Choix du type de cartes :</label>
+            <select name="typeCard" id="typeCard">
+                <option value="">--choisir un nombre--</option>
+                <option value="1">personalitiées</option>
+                <option value="2">métiers</option>
+                <option value="3">animaux</option>
+            </select>
         </article>
-        <article>
-            <p>Choix du nombre d'équipe :</p>
-            <div>
-                <div>
-                    <input type="radio" name="nbrTeam" id="2" value="2" checked>
-                    <label for="2">2</label>
-                </div>
-                <div>
-                    <input type="radio" name="nbrTeam" id="3" value="3">
-                    <label for="3">3</label>
-                </div>
-            </div>
+        <article class="select">
+            <label for="nbrTeam">Choix du nombre d'équipes' :</label>
+            <select name="nbrTeam" id="nbrTeam">
+                <option value="">--choisir un nombre--</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
         </article>
-        <article>
-            <p>Voulez-vous choisir vos équipes ?</p>
-            <div>
-                <div>
-                    <input type="radio" name="chooseTeam" id="yesTeam" value="yesTeam" checked>
-                    <label for="yesTeam">oui</label>
-                </div>
-                <div>
-                    <input type="radio" name="chooseTeam" id="noTeam" value="noTeam">
-                    <label for="noTeam">non</label>
-                </div>
-            </div>
-        </article>
-        <div id="chooseTeam">
-            <article id="team2" class="">
-                <p>Choix des équipes :</p>
-                <p>Attention, veuillez a bien séparer vos prénoms par un ";" si ils ne sont pas séparés par un ";" il se peut que deux personnes soient prise pour une seule et même personne!!</p>
-                <div>
-                    <div>
-                        <label for="blueTeam2">Equipe bleu</label>
-                        <textarea name="blueTeam2" id="blueTeam2" cols="30" rows="3"></textarea>
-                    </div>
-                    <div>
-                        <label for="redTeam2">Equipe rouge</label>
-                        <textarea name="redTeam2" id="redTeam2" cols="30" rows="3"></textarea>
-                    </div>
-                </div>
-            </article>
-            <article id="team3" class="none">
-                <p>Choix des équipes :</p>
-                <p>Attention, veuillez a bien séparer vos prénoms par un ";" si ils ne sont pas séparés par un ";" il se peut que deux personne soient prise pour une seule et meme personne!!</p>
-                <div>
-                    <div>
-                        <label for="blueTeam3">Equipe bleu</label>
-                        <textarea name="blueTeam3" id="blueTeam3" cols="30" rows="3"></textarea>
-                    </div>
-                    <div>
-                        <label for="redTeam3">Equipe rouge</label>
-                        <textarea name="redTeam3" id="redTeam3" cols="30" rows="3"></textarea>
-                    </div>
-                    <div>
-                        <label for="pinkTeam3">Equipe rose</label>
-                        <textarea name="pinkTeam3" id="pinkTeam3" cols="30" rows="3"></textarea>
-                    </div>
-                </div>
-            </article>
-        </div>
         <input type="submit" value="Valider">
     </form>
 </section>
+
 @endsection
-@section('js', '/js/choose.js')
+@section('js', 'js/choose.js')
