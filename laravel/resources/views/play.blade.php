@@ -160,7 +160,6 @@ if (($request->selectCard) == "yesCard") { ?>
                 <h1>bravo</h1>
             </div>
         </div>
-    
     </section>
     <section class="hide" id="results">
         <h1>Félicitation la partie est Terminer</h1>
@@ -174,7 +173,5 @@ if (($request->selectCard) == "yesCard") { ?>
         </form>
     </section>
 <?php } ?>
-
-    
 @endsection
 @section('js', '/js/play.js')

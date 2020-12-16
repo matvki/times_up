@@ -38,9 +38,7 @@ class Classic extends Model
     public static function addOne($request){
         $newCard = new Classic;
         $newCard->card = $request->name;
-
         $newCard->save();
-        
         return;
     }
 
