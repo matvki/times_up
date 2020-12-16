@@ -28,7 +28,6 @@ function next1(){
         document.querySelectorAll(".card1")[i].classList.remove('hide')
         if (i==0) {
             document.querySelectorAll(".card1")[restCard1-1].classList.add('hide');
-    
         }else{
             document.querySelectorAll(".card1")[i-1].classList.add('hide')
         }
@@ -227,8 +226,6 @@ function find3(time){
         document.querySelector(".div-btn3").classList.remove('flex');
         document.querySelector(".div-btn3").classList.add('hide');
         clearInterval(time);
-        
-
     } else {
         if (m>restCard3-2) {
             m=0
