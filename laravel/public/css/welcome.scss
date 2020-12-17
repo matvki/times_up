@@ -1,4 +1,4 @@
-.flex{
+main div.flex{
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -38,15 +38,15 @@ main{
             }
         }
         a{
-            border: 1px solid;
-            color: black;
+            border: 1px solid #F5B16C;
+            color: #F5B16C;
             text-decoration: none;
             padding: 7px 10px;
             border-radius: 50px;
         }
         a:hover{
-            background-color: darkgrey;
-            color: white;
+            background-color: #2E7DFF;
+            color: #F5B16C;
             border: none;
         }
     }

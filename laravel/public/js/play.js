@@ -43,7 +43,6 @@ function find1(time){
         document.querySelector(".div-btn1").classList.add('hide');
         clearInterval(time);
         j=0
-        
 
     } else {
         if (i>restCard1-2) {
