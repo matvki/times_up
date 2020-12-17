@@ -70,6 +70,7 @@
   color: #F5B16C;
   background-color: #2E7DFF;
   border-radius: 10px;
+  margin-bottom: 1em;
 }
 
 #play .cards1 .end-timer:hover {
@@ -82,12 +83,11 @@
   padding: 10px;
   box-shadow: 2px 3px 10px;
   border-radius: 10px;
-  margin-bottom: 2em;
 }
 
 #play .cards1 .card1 .enterCard {
   border-radius: 10px;
-  padding: 1em 2em;
+  padding: 40px 30px;
   background-color: #2E7DFF;
   border: 4px solid #F5B16C;
   text-align: center;
@@ -160,6 +160,7 @@
   color: #F5B16C;
   background-color: #2E7DFF;
   border-radius: 10px;
+  margin-bottom: 1em;
 }
 
 #play .cards2 .end-timer:hover {
@@ -172,12 +173,11 @@
   padding: 10px;
   box-shadow: 2px 3px 10px;
   border-radius: 10px;
-  margin-bottom: 2em;
 }
 
 #play .cards2 .card2 .enterCard {
   border-radius: 10px;
-  padding: 1em 2em;
+  padding: 40px 30px;
   background-color: #2E7DFF;
   border: 4px solid #F5B16C;
   text-align: center;
@@ -268,6 +268,7 @@
   color: #F5B16C;
   background-color: #2E7DFF;
   border-radius: 10px;
+  margin-bottom: 1em;
 }
 
 #play .cards3 .end-timer:hover {
@@ -280,12 +281,11 @@
   padding: 10px;
   box-shadow: 2px 3px 10px;
   border-radius: 10px;
-  margin-bottom: 2em;
 }
 
 #play .cards3 .card3 .enterCard {
   border-radius: 10px;
-  padding: 1em 2em;
+  padding: 40px 30px;
   background-color: #2E7DFF;
   border: 4px solid #F5B16C;
   text-align: center;

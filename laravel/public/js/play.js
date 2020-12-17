@@ -9,7 +9,6 @@ document.querySelector('.result-team1').value
 
 
 function play(){
-    console.log('sefgfs')
     document.querySelector('.cards1').classList.remove('hide')
     document.querySelector('.cards1').classList.add('flex')
     document.querySelectorAll(".card1")[0].classList.remove('hide')

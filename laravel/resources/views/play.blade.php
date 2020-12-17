@@ -14,7 +14,7 @@ if (($request->selectCard) == "yesCard") { ?>
         </div>
         <div class="hide cards1">
             <h1 class="timer1 white"></h1>
-            <input class="end-timer" type="button" value="fin du minuteur" onclick="endTimer1()">
+            <input class="end-timer" type="button" value="Fin du minuteur" onclick="endTimer1()">
             @foreach ($cards as $card)
                 <div class="card1 hide">
                     <div class="enterCard" >
@@ -36,7 +36,7 @@ if (($request->selectCard) == "yesCard") { ?>
         </div>
         <div class="hide cards2">
             <h1 class="timer2 white"></h1>
-            <input class="end-timer" type="button" value="fin du minuteur" onclick="endTimer2()">
+            <input class="end-timer" type="button" value="Fin du minuteur" onclick="endTimer2()">
             @foreach ($cards as $card)
                 <div class="card2 hide">
                     <div class="enterCard" >
@@ -59,7 +59,7 @@ if (($request->selectCard) == "yesCard") { ?>
         </div>
         <div class="hide cards3">
             <h1 class="timer3 white"></h1>
-            <input class="end-timer" type="button" value="fin du minuteur" onclick="endTimer3()">
+            <input class="end-timer" type="button" value="Fin du minuteur" onclick="endTimer3()">
             @foreach ($cards as $card)
                 <div class="card3 hide">
                     <div class="enterCard" >
@@ -104,7 +104,7 @@ if (($request->selectCard) == "yesCard") { ?>
         </div>
         <div class="hide cards1">
             <h1 class="timer1 white"></h1>
-            <input class="end-timer" type="button" value="fin du minuteur" onclick="endTimer1()">
+            <input class="end-timer" type="button" value="Fin du minuteur" onclick="endTimer1()">
             @foreach ($cards as $card)
                 <div class="card1 hide">
                     <div class="enterCard" >
@@ -126,7 +126,7 @@ if (($request->selectCard) == "yesCard") { ?>
         </div>
         <div class="hide cards2">
             <h1 class="timer2 white"></h1>
-            <input class="end-timer" type="button" value="fin du minuteur" onclick="endTimer2()">
+            <input class="end-timer" type="button" value="Fin du minuteur" onclick="endTimer2()">
             @foreach ($cards as $card)
                 <div class="card2 hide">
                     <div class="enterCard" >
@@ -149,7 +149,7 @@ if (($request->selectCard) == "yesCard") { ?>
         </div>
         <div class="hide cards3">
             <h1 class="timer3 white"></h1>
-            <input class="end-timer" type="button" value="fin du minuteur" onclick="endTimer3()">
+            <input class="end-timer" type="button" value="Fin du minuteur" onclick="endTimer3()">
             @foreach ($cards as $card)
                 <div class="card3 hide">
                     <div class="enterCard" >
