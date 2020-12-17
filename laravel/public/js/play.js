@@ -49,8 +49,6 @@ function find1(time){
         if (i>restCard1-2) {
             i=0
             document.querySelectorAll(".card1")[restCard1-1].classList.add('hide');
-        }else{
-            
         }
         if (nbrTeam=="2") {
             

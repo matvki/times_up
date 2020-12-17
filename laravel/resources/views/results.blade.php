@@ -6,7 +6,6 @@
 
 @section('content')
 <main>
-    {{dd($request)}}
     <p class="hide" id="team1">{{$request->team1}}</p>
     <p class="hide" id="team2">{{$request->team2}}</p>
     <p class="hide" id="team3">{{$request->team3}}</p>
