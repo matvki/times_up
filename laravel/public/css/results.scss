@@ -3,6 +3,29 @@
 }
 
 main{
+    .big-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container1{
+        display: flex;
+        flex-direction: row;
+        width: 50vw;
+        justify-content: space-around;
+        margin-top: 200px;
+        height: 100px;
+    }
+    .container2{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        margin-top: -290px;
+        padding-top: -100px;
+
+        img{
+            height: 300px;
+        }
+    }
         div{
             justify-content: center;
             display: flex;
@@ -17,34 +40,9 @@ main{
                     color: white;
                     font-size: 20px;
                 }
-                .p3-podium2{
-                }
                 
-                .p2{
-                    position: absolute;
-                    height: 250px;
-                    width: auto;
-                    left: 389px;
-                    top: 383px;
 
-                }
-                .p1{
-                    position: absolute;
-                    height: 350px;
-                    width: auto;
-                    left: 672px;
-                    top: 283px;
-                }
-                .p3{
-                    position: absolute;
-                    height: 200px;
-                    width: auto;
-                    left: 960px;
-                    top: 433px
-                }
-                
             }
             
         }
-    
-}
+    }
