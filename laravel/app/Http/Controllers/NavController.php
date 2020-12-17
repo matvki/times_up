@@ -37,7 +37,6 @@ class NavController extends Controller
     }
     public function results(Request $request)
     {
-        dd($request);
         return view('results', ['request' => $request]);
     }
 
