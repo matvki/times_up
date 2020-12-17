@@ -25,7 +25,7 @@ class CategorieSeeder extends Seeder
         ],
         [
             'name' => 'sience_fiction_characters'
-        ]
+        ],
     ];
         DB::table('categories')->insert($categories);
     }
