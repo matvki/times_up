@@ -10,10 +10,15 @@ main{
     section{
         text-align: center;
         h1 {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Avenir-heavy';
             font-weight: 900;
             letter-spacing: 3px;
             text-align: center;
+            color: white;
+        }
+        h2{
+            font-family: 'Avenir-heavy';
+            color: white;
         }
         div {
             display: flex;
@@ -28,6 +33,8 @@ main{
             }
             p{
                 width: 80%;
+                font-family: 'Avenir-light';
+                color: white;
             }
         }
         a{

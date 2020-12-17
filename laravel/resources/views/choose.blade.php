@@ -5,7 +5,7 @@
 @section('content')
 <section class="container" id="title">
     <h1>Choix du mode de jeux</h1>
-    <p>C'est ici que vous allez choisir votre mode de jeux.</p>
+    <p>Personnalisez votre partie !</p>
 </section>
 <section id="form" class="container">
     <form action="/jeux" method="post">
@@ -49,7 +49,7 @@
                 <option value="3">3</option>
             </select>
         </article>
-        <input type="submit" value="Valider">
+        <input class="btn-play" type="submit" value="Commencer 🎮">
     </form>
 </section>
 

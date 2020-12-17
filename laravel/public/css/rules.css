@@ -1,3 +1,8 @@
+h1 {
+  font-family: 'Avenir-heavy';
+  color: white;
+}
+
 section {
   margin-top: 50px;
   text-align: center;
@@ -7,6 +12,11 @@ section article {
   text-align: center;
   display: flex;
   justify-content: center;
+}
+
+section article p {
+  color: white;
+  font-family: 'Avenir-light';
 }
 
 section article ul {
@@ -27,6 +37,8 @@ section article ul li img {
 
 section article ul li p {
   margin-top: 0;
+  color: white;
+  font-family: 'Avenir-heavy';
 }
 
 section article .littleMore {
