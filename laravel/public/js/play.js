@@ -43,14 +43,10 @@ function find1(time){
         document.querySelector(".div-btn1").classList.remove('flex');
         document.querySelector(".div-btn1").classList.add('hide');
         clearInterval(time);
-        
-
     } else {
         if (i>restCard1-2) {
             i=0
             document.querySelectorAll(".card1")[restCard1-1].classList.add('hide');
-        }else{
-            
         }
         if (nbrTeam=="2") {
             
