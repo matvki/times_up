@@ -42,7 +42,6 @@ body {
     margin: 0;
     padding: 0;
     font-size: 1.6rem;
-    height: 100%;
     line-height: 1.6;
     background-image: linear-gradient(rgba(0, 0, 0, 0.584), rgba(0, 0, 0, 0.536)), url(/img/back.jpg);
     background-size: cover;
@@ -72,4 +71,5 @@ a {
 .flex{
     display: flex;
 }
+
 
