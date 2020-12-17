@@ -9,6 +9,10 @@ main{
     align-items: center;
     section{
         text-align: center;
+        img{
+            height: 200px;
+            width: auto;
+        }
         h1 {
             font-family: 'Avenir-heavy';
             font-weight: 900;

@@ -278,7 +278,7 @@ function viewTimer3(){
         document.querySelector('#play').classList.add('hide')
         
         if (nbrTeam=="2") {
-            document.querySelector('.result-team1').value = team1r
+            document.querySelector('.result-team1').value = team1
             document.querySelector('.result-team2').value = team2
         }else{
             document.querySelector('.result-team1').value = team1
