@@ -79,6 +79,7 @@ function timer1(time){
         setTimeout(next1, 200);
         j=4;
         chooseTeam=chooseTeam+1;
+        setTimeout(viewTimer1, 200);
     }
 }
 
