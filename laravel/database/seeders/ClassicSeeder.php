@@ -2498,9 +2498,6 @@ class ClassicSeeder extends Seeder
         [
             'card' => "Phasme",
             'categorie_id' => "3",
-<<<<<<< HEAD
-        ]];
-=======
         ],
         [
             'card' => "Ace au poing ardent",
@@ -2683,7 +2680,6 @@ class ClassicSeeder extends Seeder
             'categorie_id' => "4",
         ],
     ];
->>>>>>> a7a273c724a8509803e40959f454ec392e5e222b
         DB::table('classics')->insert($classics);
         DB::table('admins')->insert([
             'username' => "Sephorquoi",
