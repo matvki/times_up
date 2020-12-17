@@ -20,9 +20,7 @@ Route::get('/mode_de_jeux', [NavController::class, 'choose']);
 Route::get('/les_regles', [NavController::class, 'rules']);
 Route::get('/admin', [NavController::class, 'admin']);
 
-
 Route::post('/jeux', [NavController::class, 'jeux']);
 Route::post('/resultats', [NavController::class, 'results']);
-
 Route::post('/login', [ActionController::class, 'login']);
 

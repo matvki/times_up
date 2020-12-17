@@ -166,9 +166,10 @@ if (($request->selectCard) == "yesCard") { ?>
         <h1>Félicitation la partie est Terminer</h1>
         <form action="/resultats" method="POST">
             @csrf
-            <input class="result-team1" type="hidden" value="">
-            <input class="result-team2" type="hidden" value="">
-            <input class="result-team3" type="hidden" value="">
+            <input name="team1" class="result-team1" type="hidden" value="-1">
+            <input name="team2" class="result-team2" type="hidden" value="-1">
+            <input name="team3" class="result-team3" type="hidden" value="-1">
+            <input name="nbrTeam" class="result-team3" type="hidden" value="{{$request->nbrTeam}}">
             <input type="submit" value="Résultats">
         </form>
     </section>

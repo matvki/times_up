@@ -44,4 +44,6 @@ class NavController extends Controller
     {
         return view('admin');
     }
+
+    
 }

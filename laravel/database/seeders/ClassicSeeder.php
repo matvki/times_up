@@ -2672,14 +2672,13 @@ class ClassicSeeder extends Seeder
             'categorie_id' => "4",
         ],
         [
-            'card' => "Tororo",
+            'card' => "Totoro",
             'categorie_id' => "4",
         ],
         [
             'card' => "Magicarpe",
             'categorie_id' => "4",
         ],
-    
     ];
         DB::table('classics')->insert($classics);
         DB::table('admins')->insert([

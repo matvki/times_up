@@ -5,9 +5,11 @@ let team1=0;
 let team2=0;
 let team3=0;
 let chooseTeam=0;
+document.querySelector('.result-team1').value
 
 
 function play(){
+    console.log('sefgfs')
     document.querySelector('.cards1').classList.remove('hide')
     document.querySelector('.cards1').classList.add('flex')
     document.querySelectorAll(".card1")[0].classList.remove('hide')
@@ -278,8 +280,7 @@ function viewTimer3(){
         document.querySelector('#play').classList.add('hide')
         
         if (nbrTeam=="2") {
-            
-            document.querySelector('.result-team1').value = team1
+            document.querySelector('.result-team1').value = team1r
             document.querySelector('.result-team2').value = team2
         }else{
             document.querySelector('.result-team1').value = team1
@@ -299,6 +300,7 @@ function viewTimer3(){
 
 
 function countPoint2(){
+
     if (chooseTeam%2==0) {
         team1=team1+1
     }else{
