@@ -39,10 +39,10 @@ function next1(){
 function find1(time){
     restCard1=document.querySelectorAll(".card1").length
     if(restCard1<1){
-        document.querySelectorAll(".card1")[i].classList.add('hide');
         document.querySelector(".div-btn1").classList.remove('flex');
         document.querySelector(".div-btn1").classList.add('hide');
         clearInterval(time);
+        j=0
         
 
     } else {
@@ -62,7 +62,10 @@ function find1(time){
     }
 }
 
-j=4;
+j=60;
+function endTimer1() {
+    j=0
+}
 function timer1(time){
     if (j!=0) {
         
@@ -75,7 +78,7 @@ function timer1(time){
         setTimeout(function(){ alert("le temps est ecouler c'est à l'équipe suivante"); }, 200);
         setTimeout(function(){ document.querySelectorAll(".word")[i].classList.remove('white'); }, 200);
         setTimeout(next1, 200);
-        j=4;
+        j=60;
         chooseTeam=chooseTeam+1;
         setTimeout(viewTimer1, 200);
     }
@@ -134,13 +137,10 @@ function next2(){
 function find2(time){
     restCard2=document.querySelectorAll(".card2").length
     if(restCard2<1){
-        document.querySelectorAll(".card2")[k].classList.add('hide');
-        document.querySelector(".div-btn2").classList.remove('flex');
-        document.querySelector(".div-btn2").classList.add('hide');
         clearInterval(time);
         
 
-    } else {
+    }else {
         if (k>restCard2-2) {
             k=0
             document.querySelectorAll(".card2")[restCard2-1].classList.add('hide');
@@ -158,7 +158,10 @@ function find2(time){
     }
 }
 
-l=4;
+l=60;
+function endTimer2() {
+    l=0
+}
 function timer2(time){
     if (l!=0) {
         
@@ -171,7 +174,7 @@ function timer2(time){
         setTimeout(function(){ alert("le temps est ecouler c'est à l'équipe suivante"); }, 200);
         setTimeout(function(){ document.querySelectorAll(".word")[k].classList.remove('white'); }, 200);
         setTimeout(next2, 200);
-        l=4;
+        l=60;
         chooseTeam=chooseTeam+1;
         setTimeout(viewTimer2, 200);
     }
@@ -223,9 +226,6 @@ function next3(){
 function find3(time){
     restCard3=document.querySelectorAll(".card3").length
     if(restCard3<1){
-        document.querySelectorAll(".card3")[m].classList.add('hide');
-        document.querySelector(".div-btn3").classList.remove('flex');
-        document.querySelector(".div-btn3").classList.add('hide');
         clearInterval(time);
     } else {
         if (m>restCard3-2) {
@@ -245,7 +245,10 @@ function find3(time){
     }
 }
 
-n=4;
+n=60;
+function endTimer3() {
+    n=0
+}
 function timer3(time){
     if (n!=0) {
         
@@ -262,7 +265,7 @@ function timer3(time){
             setTimeout(function(){ document.querySelectorAll(".word")[m].classList.remove('white'); }, 200);
         }
         setTimeout(next3, 200);
-        n=4;
+        n=60;
         chooseTeam=chooseTeam+1;
         setTimeout(viewTimer3, 200);
     }
@@ -278,7 +281,7 @@ function viewTimer3(){
         document.querySelector('#play').classList.add('hide')
         
         if (nbrTeam=="2") {
-            document.querySelector('.result-team1').value = team1r
+            document.querySelector('.result-team1').value = team1
             document.querySelector('.result-team2').value = team2
         }else{
             document.querySelector('.result-team1').value = team1

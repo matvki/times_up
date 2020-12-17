@@ -13,7 +13,8 @@ if (($request->selectCard) == "yesCard") { ?>
             <input type="button" value="Start" onclick="play(); viewTimer1();">
         </div>
         <div class="hide cards1">
-            <h1 class="timer1"></h1>
+            <h1 class="timer1 white"></h1>
+            <input class="end-timer" type="button" value="fin du minuteur" onclick="endTimer1()">
             @foreach ($cards as $card)
                 <div class="card1 hide">
                     <div class="enterCard" >
@@ -34,7 +35,8 @@ if (($request->selectCard) == "yesCard") { ?>
             </div>
         </div>
         <div class="hide cards2">
-            <h1 class="timer2"></h1>
+            <h1 class="timer2 white"></h1>
+            <input class="end-timer" type="button" value="fin du minuteur" onclick="endTimer2()">
             @foreach ($cards as $card)
                 <div class="card2 hide">
                     <div class="enterCard" >
@@ -56,7 +58,8 @@ if (($request->selectCard) == "yesCard") { ?>
             </div>
         </div>
         <div class="hide cards3">
-            <h1 class="timer3"></h1>
+            <h1 class="timer3 white"></h1>
+            <input class="end-timer" type="button" value="fin du minuteur" onclick="endTimer3()">
             @foreach ($cards as $card)
                 <div class="card3 hide">
                     <div class="enterCard" >
@@ -79,16 +82,18 @@ if (($request->selectCard) == "yesCard") { ?>
         </div>
     
     </section>
-    <section class="hide" id="results">
-        <h1>Félicitation la partie est Terminer</h1>
-        <form action="/resultats" method="POST">
-            @csrf
-            <input name="team1" class="result-team1" type="hidden" value="-1">
-            <input name="team2" class="result-team2" type="hidden" value="-1">
-            <input name="team3" class="result-team3" type="hidden" value="-1">
-            <input name="nbrTeam" class="result-team3" type="hidden" value="{{$request->nbrTeam}}">
-            <input type="submit" value="Résultats">
-        </form>
+    <section class="hide" id="results" >
+        <div class="go-result flex">
+            <h1>Félicitation la partie est Terminer</h1>
+            <form action="/resultats" method="POST">
+                @csrf
+                <input name="team1" class="result-team1" type="hidden" value="-1">
+                <input name="team2" class="result-team2" type="hidden" value="-1">
+                <input name="team3" class="result-team3" type="hidden" value="-1">
+                <input name="nbrTeam" class="result-team3" type="hidden" value="{{$request->nbrTeam}}">
+                <input type="submit" value="Résultats">
+            </form>
+        </div>
     </section>
 <?php } else { ?>
     <section class="flex" id="play">
@@ -98,7 +103,8 @@ if (($request->selectCard) == "yesCard") { ?>
             <input type="button" value="Start" onclick="play(); viewTimer1();">
         </div>
         <div class="hide cards1">
-            <h1 class="timer1"></h1>
+            <h1 class="timer1 white"></h1>
+            <input class="end-timer" type="button" value="fin du minuteur" onclick="endTimer1()">
             @foreach ($cards as $card)
                 <div class="card1 hide">
                     <div class="enterCard" >
@@ -119,7 +125,8 @@ if (($request->selectCard) == "yesCard") { ?>
             </div>
         </div>
         <div class="hide cards2">
-            <h1 class="timer2"></h1>
+            <h1 class="timer2 white"></h1>
+            <input class="end-timer" type="button" value="fin du minuteur" onclick="endTimer2()">
             @foreach ($cards as $card)
                 <div class="card2 hide">
                     <div class="enterCard" >
@@ -141,7 +148,8 @@ if (($request->selectCard) == "yesCard") { ?>
             </div>
         </div>
         <div class="hide cards3">
-            <h1 class="timer3"></h1>
+            <h1 class="timer3 white"></h1>
+            <input class="end-timer" type="button" value="fin du minuteur" onclick="endTimer3()">
             @foreach ($cards as $card)
                 <div class="card3 hide">
                     <div class="enterCard" >
@@ -163,16 +171,18 @@ if (($request->selectCard) == "yesCard") { ?>
             </div>
         </div>
     </section>
-    <section class="hide" id="results">
-        <h1>Félicitation la partie est Terminer</h1>
-        <form action="/resultats" method="POST">
-            @csrf
-            <input name="team1" class="result-team1" type="hidden" value="-1">
-            <input name="team2" class="result-team2" type="hidden" value="-1">
-            <input name="team3" class="result-team3" type="hidden" value="-1">
-            <input name="nbrTeam" class="result-team3" type="hidden" value="{{$request->nbrTeam}}">
-            <input type="submit" value="Résultats">
-        </form>
+    <section class="hide" id="results" >
+        <div class="go-result flex">
+            <h1>Félicitation la partie est Terminer</h1>
+            <form action="/resultats" method="POST">
+                @csrf
+                <input name="team1" class="result-team1" type="hidden" value="-1">
+                <input name="team2" class="result-team2" type="hidden" value="-1">
+                <input name="team3" class="result-team3" type="hidden" value="-1">
+                <input name="nbrTeam" class="result-team3" type="hidden" value="{{$request->nbrTeam}}">
+                <input type="submit" value="Résultats">
+            </form>
+        </div>
     </section>
 <?php } ?>
 
