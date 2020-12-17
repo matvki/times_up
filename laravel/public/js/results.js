@@ -19,37 +19,42 @@ if (nbrTeam=="3") {
     }
     switch (team[1]) {
         case team1:
-            document.querySelector(".p3-podium2").innerHTML= `Equipe 1: ${team1}`
+            document.querySelector(".p3-podium2").innerHTML= `Equipe 1: ${team1}pts`
             break;
         case team2:
-            document.querySelector(".p3-podium2").innerHTML= `Equipe 2: ${team2}`
+            document.querySelector(".p3-podium2").innerHTML= `Equipe 2: ${team2}pts`
             break;
         case team3:
-            document.querySelector(".p3-podium2").innerHTML= `Equipe 3: ${team3}`
+            document.querySelector(".p3-podium2").innerHTML= `Equipe 3: ${team3}pts`
+
             break;
     
     }
     switch (team[0]) {
         case team2:
-            document.querySelector(".p3-podium1").innerHTML= `Equipe 2: ${team2}`
+
+            document.querySelector(".p3-podium1").innerHTML= `Equipe 2: ${team2}pts`
             break;
         case team3:
-            document.querySelector(".p3-podium1").innerHTML= `Equipe 3: ${team3}`
+            document.querySelector(".p3-podium1").innerHTML= `Equipe 3: ${team3}pts`
             break;
         case team1:
-            document.querySelector(".p3-podium1").innerHTML= `Equipe 1: ${team1}`
+            document.querySelector(".p3-podium1").innerHTML= `Equipe 1: ${team1}pts`
+
             break;
     
     }
     switch (team[2]) {
         case team3:
-            document.querySelector(".p3-podium3").innerHTML= `Equipe 3: ${team3}`
+
+            document.querySelector(".p3-podium3").innerHTML= `Equipe 3: ${team3}pts`
             break;
         case team2:
-            document.querySelector(".p3-podium3").innerHTML= `Equipe 2: ${team2}`
+            document.querySelector(".p3-podium3").innerHTML= `Equipe 2: ${team2}pts`
             break;
         case team1:
-            document.querySelector(".p3-podium3").innerHTML= `Equipe 1: ${team1}`
+            document.querySelector(".p3-podium3").innerHTML= `Equipe 1: ${team1}pts`
+
             break;
         
         
@@ -63,11 +68,13 @@ if (nbrTeam=="3") {
         team[1]=tampon;
     }
     if (team[0]==team1) {
-        document.querySelector(".p2-podium2").innerHTML= `Equipe 2: ${team2}`
-        document.querySelector(".p2-podium1").innerHTML= `Equipe 1: ${team1}`
+
+        document.querySelector(".p2-podium2").innerHTML= `Equipe 2: ${team2}pts`
+        document.querySelector(".p2-podium1").innerHTML= `Equipe 1: ${team1}pts`
     }else{
-        document.querySelector(".p2-podium2").innerHTML= `Equipe 1: ${team1}`
-        document.querySelector(".p2-podium1").innerHTML= `Equipe 2: ${team2}`
+        document.querySelector(".p2-podium2").innerHTML= `Equipe 1: ${team1}pts`
+        document.querySelector(".p2-podium1").innerHTML= `Equipe 2: ${team2}pts`
+
     }
 
 

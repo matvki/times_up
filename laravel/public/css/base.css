@@ -1,3 +1,23 @@
+/* police titre/sous titre */
+@font-face {
+    font-family: 'Avenir-heavy';
+    src: url('/font/AvenirLTStd-Heavy.woff2') format('woff2'),
+        url('/font/AvenirLTStd-Heavy.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* police general */
+@font-face {
+    font-family: 'Avenir-light';
+    src: url('/font/AvenirLTStd-Light.woff2') format('woff2'),
+        url('/font/AvenirLTStd-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 * {
     box-sizing: border-box;
     outline: none;
@@ -15,7 +35,7 @@
 }
 
 html {
-    font-size: 62.5%
+    font-size: 62.5%;
 }
 
 body {
@@ -23,11 +43,12 @@ body {
     padding: 0;
     font-size: 1.6rem;
     line-height: 1.6;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.584), rgba(0, 0, 0, 0.536)), url(/img/back.jpg);
+    background-size: cover;
 }
 
 a, a:hover, a:visited, a:active {
     text-decoration: none;
-    color: inherit;
 }
 
 ul {
@@ -50,4 +71,5 @@ a {
 .flex{
     display: flex;
 }
+
 

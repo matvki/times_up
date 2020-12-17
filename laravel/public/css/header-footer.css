@@ -22,7 +22,7 @@ header nav div div a {
   height: 90px;
   width: 90px;
   border-radius: 100px;
-  background-image: url(/img/fond.jpg);
+  background-color: rgba(46, 126, 255, 0.708);
 }
 
 header nav div div a div {
@@ -39,12 +39,8 @@ header nav div div a div img {
 }
 
 header nav div div a:hover {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.153), rgba(255, 255, 255, 0.153)), url(/img/fond.jpg);
-  transition: all 0.9s;
-}
-
-header nav div div a:hover:not(:hover) {
-  transition: 1s;
+  background-color: #2e7dff;
+  transition: all 0.4s;
 }
 
 header nav div div:hover .etc {
@@ -65,7 +61,7 @@ header nav div div:hover .etc {
     height: 0;
     border-style: solid;
     border-width: 0 10px 10px 10px;
-    border-color: transparent transparent #007bff transparent;
+    border-color: transparent transparent #2E7DFF transparent;
   }
   header nav div p {
     display: none;
@@ -73,7 +69,7 @@ header nav div div:hover .etc {
     top: 115px;
     padding: 0 5px;
     background-color: #dbdbdb;
-    border: solid 1px blue;
+    border: solid 1px #2E7DFF;
   }
   header nav div:hover .etc {
     display: none;
@@ -97,15 +93,16 @@ header nav div div:hover .etc {
     height: 0;
     border-style: solid;
     border-width: 0 10px 10px 10px;
-    border-color: transparent transparent #007bff transparent;
+    border-color: transparent transparent #F5B16C transparent;
   }
   header nav div p {
     display: none;
     position: fixed;
     top: 115px;
     padding: 0 5px;
-    background-color: #dbdbdb;
-    border: solid 1px blue;
+    background-color: #2E7DFF;
+    border: solid 1px #F5B16C;
+    color: #F5B16C;
   }
   header nav div:hover .etc {
     display: none;
@@ -123,7 +120,7 @@ header nav div div:hover .etc {
   }
   header nav {
     display: flex;
-    margin-left: 2em;
+    margin-left: 3.5em;
     justify-content: space-around;
     flex-direction: column;
     height: 100%;

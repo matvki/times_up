@@ -5,7 +5,7 @@
 @section('content')
 <section class="container" id="title">
     <h1>Choix du mode de jeux</h1>
-    <p>C'est ici que vous allez choisir votre mode de jeux.</p>
+    <p>Personnalisez votre partie !</p>
 </section>
 <section id="form" class="container">
     <form action="/jeux" method="post">
@@ -13,7 +13,6 @@
         <article class="select">
             <label for="nbrCard">Choix du nombre de cartes :</label>
             <select name="nbrCard" id="nbrCard">
-                <option value="">--choisir un nombre--</option>
                 <option value="21">21</option>
                 <option value="31">31</option>
                 <option value="41">41</option>
@@ -35,7 +34,7 @@
         <article class="select" id="chooseCard">
             <label for="typeCard">Choix du type de cartes :</label>
             <select name="typeCard" id="typeCard">
-                <option value="">--choisir un nombre--</option>
+                <option value="4">personnages fictifs</option>
                 <option value="1">personalitiées</option>
                 <option value="2">métiers</option>
                 <option value="3">animaux</option>
@@ -44,12 +43,11 @@
         <article class="select">
             <label for="nbrTeam">Choix du nombre d'équipes' :</label>
             <select name="nbrTeam" id="nbrTeam">
-                <option value="">--choisir un nombre--</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
             </select>
         </article>
-        <input type="submit" value="Valider">
+        <input class="btn-play" type="submit" value="Commencer 🎮">
     </form>
 </section>
 
