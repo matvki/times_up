@@ -93,15 +93,16 @@ header nav div div:hover .etc {
     height: 0;
     border-style: solid;
     border-width: 0 10px 10px 10px;
-    border-color: transparent transparent #007bff transparent;
+    border-color: transparent transparent #F5B16C transparent;
   }
   header nav div p {
     display: none;
     position: fixed;
     top: 115px;
     padding: 0 5px;
-    background-color: #dbdbdb;
-    border: solid 1px blue;
+    background-color: #2E7DFF;
+    border: solid 1px #F5B16C;
+    color: #F5B16C;
   }
   header nav div:hover .etc {
     display: none;
