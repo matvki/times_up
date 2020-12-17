@@ -45,7 +45,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Hermione Granger",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Bison Futé",
@@ -53,7 +53,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Blanche-Neige",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Menottes",
@@ -81,7 +81,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Buzz l'Eclair",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Muse",
@@ -97,11 +97,11 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Bilbo le Hobbit",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "La Belle et le Clochard",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Mimie Mathy",
@@ -129,7 +129,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "La Petite Sirène ",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Blade Runner",//30
@@ -153,7 +153,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Docteur Watson",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Sebastian Vettel",
@@ -185,7 +185,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "La Fée Clochette",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Télématin",
@@ -193,7 +193,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "La Reine des neiges",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Benoit Poelvoorde",
@@ -257,7 +257,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Robocop",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Dalaï-lama",
@@ -269,7 +269,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Les schtroumpfs",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Le Gendarme de Saint-Tropez",
@@ -301,15 +301,15 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Pikachu",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Le Joker",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Gargamel",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "La Cigale et la Fourmi",
@@ -341,7 +341,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "La vache qui rit",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Daft Punk",
@@ -357,7 +357,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Gollum",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Arthur Rimbaud",
@@ -389,7 +389,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Luke Skywalker",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Fred Vargas",
@@ -445,7 +445,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "M. Hyde",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Lego",
@@ -457,11 +457,11 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Ali Baba",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "WALL-E",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Charlemagne",
@@ -473,7 +473,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Gulliver",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Miley Cyrus",
@@ -485,7 +485,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Pac-Man",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Kad Merad",
@@ -501,7 +501,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Legolas",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Arsène Lupin",
@@ -549,7 +549,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Spock",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Tom Cruise",
@@ -557,7 +557,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Mickey Mouse",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "La Famille Bélier",
@@ -581,7 +581,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Tintin",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "The Walking Dead",
@@ -645,7 +645,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Les tortues ninja",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "justin Timberlake",
@@ -685,7 +685,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Les Gardien de la Galaxie",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "michael jackson",
@@ -697,7 +697,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Monsieur Propre",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Ulysse",
@@ -705,7 +705,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Dora l'Explorarice",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Vanessa Paradis",
@@ -737,7 +737,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Voldemort",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Franklin",
@@ -785,7 +785,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Tetris",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Koh-Lanta",
@@ -801,7 +801,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Catwoman",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Les Misérables",
@@ -825,7 +825,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Katniss Everdeen",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Jamel Debbouze",
@@ -837,7 +837,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Le donjon de Naheulbeuk",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Les Inconnus",
@@ -845,7 +845,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Flash McQueen",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Les Grosses Têtes",
@@ -853,11 +853,11 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Jon Snow",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Shaun le mouton",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "300",
@@ -917,11 +917,11 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Le petit Prince",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Popeye",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Jule Ferry",
@@ -957,7 +957,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Mary Poppins",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Drake",
@@ -973,7 +973,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Mon petit Poney",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Aphrodite",
@@ -989,7 +989,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Mario",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Charmed",
@@ -1009,11 +1009,11 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Black et Mortimer",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Snoopy",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Tinder",
@@ -1025,11 +1025,11 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Les 101 Dalmatiens",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Kirikou",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "X-Men",
@@ -1093,7 +1093,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Homer Simpson",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Futurama",
@@ -1101,7 +1101,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Robin des Bois",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Columbo",
@@ -1133,7 +1133,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Spirou",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Joey Starr",
@@ -1149,7 +1149,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Les bisounours",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Gad Elmaleh",
@@ -1157,11 +1157,11 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Superman",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Le petit Nicolas",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "One Piece",
@@ -1189,11 +1189,11 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Babar",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Gandalf",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Elton John",
@@ -1205,7 +1205,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "La Belle au bois Dormant",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Esmeralda",
@@ -1225,7 +1225,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Hagrid",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Shakira",
@@ -1237,11 +1237,11 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "La Schtroumpfette",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Colonel Moutarde",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Eric Cantona",
@@ -1253,7 +1253,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Hello Kitty",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Jean-Jacques Rousseau",
@@ -1285,11 +1285,11 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Les Minions",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Shrek",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "La roue de la fortune",
@@ -1409,7 +1409,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Krokmou",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Bernard Pivot",
@@ -1417,7 +1417,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Astérix",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Daniel Balavoine",
@@ -1429,7 +1429,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Capitaine Crochet",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Doteur Who",
@@ -1469,7 +1469,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Alice au pays Des Merveilles ",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Les Chevalier Du Zodiaque",
@@ -1509,7 +1509,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Le père Fouras",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Bigfoot",
@@ -1541,7 +1541,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Le petit Chaperon rouge",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Morue",
@@ -1549,7 +1549,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Les Dalton",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Groland",
@@ -1573,11 +1573,11 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Aladin",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Sonic",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Attila",
@@ -1585,7 +1585,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Raiponce",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "L'alchimiste",
@@ -1601,7 +1601,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Les trois Mousquetaires",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Ikea",
@@ -1629,11 +1629,11 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Godzilla",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Bono",
-            'categorie_id' => "0",
+            'categorie_id' => "1",
         ],
         [
             'card' => "Michel-Ange",
@@ -1641,15 +1641,15 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Olaf",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Tigrou",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Dory",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Le Géant Vert",
@@ -1673,7 +1673,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Titeuf",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Julia Roberts",
@@ -1697,7 +1697,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Professeur Tournesol",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Jeanne d'Arc",
@@ -1713,7 +1713,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Gepetto",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Davy Crockett",
@@ -1745,7 +1745,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Indiana Jones",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Keen'v",
@@ -1765,7 +1765,7 @@ class ClassicSeeder extends Seeder
         ],
         [
             'card' => "Idefix",
-            'categorie_id' => "0",
+            'categorie_id' => "4",
         ],
         [
             'card' => "Kaamelott",
@@ -2499,16 +2499,186 @@ class ClassicSeeder extends Seeder
             'card' => "Phasme",
             'categorie_id' => "3",
         ],
-
-
-
-
-        
-        
-    
-    
-    
-    
+        [
+            'card' => "Ace au poing ardent",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Assuna",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Ban le renard de l'Avarice",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Cloud Strife",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Diane le serpent de l'envie",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Eraserhead",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Eren Jäger",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Erza Scarlette",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Escanor le lion de l'orgueil",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "freezer",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Edward Elric",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Alphonce Elric",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Hisoka",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Itachi uchiha",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Izuku Midoriya",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Katsuki Bakugo",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Kakashi Hatake",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Ken Kaneki",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "King le Grizzly de la paresse",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Kirito",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Kirua Zoldik",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Trafalgar D. Water Law",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Livaï Ackerman",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Meliodas le Dragon de la Colère",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Mikasa Ackerman",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Saitama",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Son Goku",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Végéta",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Senku Ishigami",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Shoto Todoroki",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Tanjiro Kamado",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Roronoa Zoro",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Ponyo",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Tommy Shelby",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Xiangling",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Diluc",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Amandine Malabul",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Le capitaine crochet",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Pluto",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Sacha du Bourg-Palette",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Lara Croft",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Luigi",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Dominic Toretto",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Totoro",
+            'categorie_id' => "4",
+        ],
+        [
+            'card' => "Magicarpe",
+            'categorie_id' => "4",
+        ],
     ];
         DB::table('classics')->insert($classics);
         DB::table('admins')->insert([
