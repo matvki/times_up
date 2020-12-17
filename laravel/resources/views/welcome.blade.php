@@ -12,8 +12,8 @@
         <img src="./img/IT Times.png" alt="logo" >
     </div>
     <div>
-        <h2>IT Times c'est quoi ?</h2>
-        <p> IT Times c'est le même principe que le jeu "Times Up". Vous n'avez pas vos cartes pour votre soirée entre copains ? Pas de panique ! IT Times est là pour vous aidez !😜</p>
+        <h2>Mais c'est quoi ?</h2>
+        <p> IT Times c'est le même principe que le jeu "Times Up". Vous n'avez pas vos cartes pour votre soirée entre copains ? <br> Pas de panique ! IT Times est là pour vous ! 😜</p>
     </div>
     <a href="/mode_de_jeux"> ALLONS-Y ! </a>
 </section>

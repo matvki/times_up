@@ -2498,18 +2498,7 @@ class ClassicSeeder extends Seeder
         [
             'card' => "Phasme",
             'categorie_id' => "3",
-        ],
-
-
-
-
-        
-        
-    
-    
-    
-    
-    ];
+        ]];
         DB::table('classics')->insert($classics);
         DB::table('admins')->insert([
             'username' => "Sephorquoi",

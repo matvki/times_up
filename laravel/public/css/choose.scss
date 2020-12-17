@@ -1,7 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@font-face {
+    font-family: "BrighlyCrush-Shine";
+
+    src: url("./fonts/BrightlyCrushShine.woff") format("woff"), /* Modern Browsers */
+      url("./fonts/BrightlyCrushShine.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
 .none {
     display: none;
+}
+
+.btn-play{
+    padding: 8px 21px;
+    background-color: #f5b16cd6;
+    border: none;
+
+    &:hover{
+        background-color: #F5B16C;
+    }
 }
 
 main {
@@ -9,26 +27,31 @@ main {
     section#title {
         width: 1080px;
         text-align: center;
-        border: solid 10px black;
+        border: solid 3px#F5B16C;
         padding: 20px 0;
-        background-color: rgb(241, 233, 204);
+        background-color:#2E7DFF;
         h1 {
             font-size: 70px;
-            font-family: "Pacifico", cursive;
+            // font-family: "Pacifico", cursive;
+            font-family: "BrighlyCrush-Shine";
             margin-bottom: 20px;
+            color: #F5B16C;
         }
         p {
             font-size: 25px;
-            font-family: "Courgette", cursive;
+            font-weight: bold;
+            font-family: 'Avenir-heavy';
         }
     }
     section#form {
         margin-top: 50px;
         width: 1080px;
         text-align: center;
-        border: solid 10px black;
+        border: solid 3px#cfbfae;
         padding: 50px 0;
-        background-color: rgb(241, 233, 204);
+        background-color: #2E7DFF;
+        font-weight: bold;
+        font-family: 'Avenir-light';
         form {
             article {
                 max-width: 900px;
