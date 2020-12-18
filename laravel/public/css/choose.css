@@ -12,22 +12,13 @@
   display: none;
 }
 
-.btn-play {
-  padding: 8px 21px;
-  background-color: #f5b16cd6;
-  border: none;
-}
-
-.btn-play:hover {
-  background-color: #F5B16C;
-}
-
 select {
   background-color: #2E7DFF;
   color: #F5B16C;
   border: none;
   text-align: center;
   margin-left: 1em;
+  cursor: pointer;
 }
 
 main {
@@ -79,6 +70,19 @@ main section#form form article div {
 
 main section#form form article div input {
   margin: 0 10px;
+}
+
+main section#form form input.btn-play {
+  padding: 8px 21px;
+  background-color: #f5b16cd6;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+
+main section#form form input.btn-play:hover {
+  background-color: #F5B16C;
+  box-shadow: inset 5px 5px 5px black;
 }
 
 @media (max-width: 767px) {
