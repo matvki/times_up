@@ -77,7 +77,7 @@ function timer1(time){
         document.querySelector(".timer1").innerHTML = `${j} seconds restantes`
         document.querySelectorAll(".word")[i].classList.add('white');
         clearInterval(time);
-        setTimeout(function(){ alert("le temps est ecouler c'est à l'équipe suivante"); }, 200);
+        setTimeout(function(){ alert("Le temps est écoulé c'est à l'équipe suivante"); }, 200);
         setTimeout(function(){ document.querySelectorAll(".word")[i].classList.remove('white'); }, 200);
         setTimeout(next1, 200);
         j=60;
@@ -175,7 +175,7 @@ function timer2(time){
         document.querySelector(".timer2").innerHTML = `${l} seconds restantes`
         document.querySelectorAll(".word")[k].classList.add('white');
         clearInterval(time);
-        setTimeout(function(){ alert("le temps est ecouler c'est à l'équipe suivante"); }, 200);
+        setTimeout(function(){ alert("Le temps est écoulé c'est à l'équipe suivante"); }, 200);
         setTimeout(function(){ document.querySelectorAll(".word")[k].classList.remove('white'); }, 200);
         setTimeout(next2, 200);
         l=60;
@@ -266,7 +266,7 @@ function timer3(time){
             document.querySelectorAll(".word")[m].classList.add('white');
         }
         clearInterval(time);
-        setTimeout(function(){ alert("le temps est ecouler c'est à l'équipe suivante"); }, 200);
+        setTimeout(function(){ alert("Le temps est écoulé c'est à l'équipe suivante"); }, 200);
         if (m!=0) {
             setTimeout(function(){ document.querySelectorAll(".word")[m].classList.remove('white'); }, 200);
         }
