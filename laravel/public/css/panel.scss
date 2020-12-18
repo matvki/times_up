@@ -1,48 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
+body {
+    background-size: contain;
+}
 main {
     h1 {
         text-align: center;
         font-size: 70px;
         font-family: "Pacifico", cursive;
-        margin-bottom: 20px;
+        margin: 20px 0px 20px;
+        color: white;
     }
     form {
         text-align: center;
         button {
-            background-color: rgb(216, 216, 216);
-            box-shadow: 5px 5px 5px rgb(0, 0, 0);
+            outline: none;
+            background-color: #F5B16C;
+            color: #2e7effe1;
             padding: 5px 10px;
             border: none;
             border-radius: 20px;
-            font-family: "Courgette", cursive;
             &:hover {
-                background-color: rgb(88, 101, 224);
-                color: honeydew;
-                box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.363);
+                background-color: #2E7DFF;
+                color: #f5b16ce1;
             }
         }
     }
     div {
         text-align: center;
         width: 70vw;
-        margin: 100px auto 0;
+        margin: 50px auto 0;
         table {
-            border: solid 5px rgb(88, 101, 224);
+            border: solid 5px #2E7DFF;
+            
             thead {
                 max-width: 1070px;
-                background-color: rgb(88, 101, 224);
-                color: white;
+                background-color: #2E7DFF;
+                color: #F5B16C;
             }
             tbody {
                 max-width: 70vw;
+                color: white;
                 tr {
                     &:hover td {
-                        background-color: rgb(148, 156, 230);
+                        background-color: #639dfade;
                     }
                     &:nth-child(2n + 0) {
-                        background-color: rgb(167, 167, 167);
+                        background-color: #f5b16cb9;
                     }
                 }
             }

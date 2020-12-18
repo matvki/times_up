@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+body {
+  background-size: contain;
+}
+
 main h1 {
   text-align: center;
   font-size: 70px;
   font-family: "Pacifico", cursive;
-  margin-bottom: 20px;
+  margin: 20px 0px 20px;
+  color: white;
 }
 
 main form {
@@ -17,39 +22,38 @@ main form button {
   padding: 5px 10px;
   border: none;
   border-radius: 20px;
-  font-family: "Courgette", cursive;
 }
 
 main form button:hover {
-  background-color: #5865e0;
+  background-color: #2E7DFF;
   color: honeydew;
-  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.363);
 }
 
 main div {
   text-align: center;
   width: 70vw;
-  margin: 100px auto 0;
+  margin: 50px auto 0;
 }
 
 main div table {
-  border: solid 5px #5865e0;
+  border: solid 5px #2E7DFF;
 }
 
 main div table thead {
   max-width: 1070px;
-  background-color: #5865e0;
+  background-color: #2E7DFF;
   color: white;
 }
 
 main div table tbody {
   max-width: 70vw;
+  color: white;
 }
 
 main div table tbody tr:hover td {
-  background-color: #949ce6;
+  background-color: #639dfa;
 }
 
 main div table tbody tr:nth-child(2n + 0) {
-  background-color: #a7a7a7;
+  background-color: #f5b16cb9;
 }
