@@ -46,7 +46,12 @@ function find1(time){
     } else {
         if (i>restCard1-2) {
             i=0
-            document.querySelectorAll(".card1")[restCard1-1].classList.add('hide');
+            document.querySelectorAll(".card1")[restCard1-1].remove();
+            document.querySelectorAll(".card1")[i].classList.remove('hide')
+
+        }else{
+            document.querySelectorAll(".card1")[i].remove();
+            document.querySelectorAll(".card1")[i].classList.remove('hide')
         }
         if (nbrTeam=="2") {
             
@@ -55,8 +60,7 @@ function find1(time){
             countPoint3();
         }
 
-        document.querySelectorAll(".card1")[i].remove();
-        document.querySelectorAll(".card1")[i].classList.remove('hide')
+        
     }
 }
 
@@ -141,9 +145,12 @@ function find2(time){
     }else {
         if (k>restCard2-2) {
             k=0
-            document.querySelectorAll(".card2")[restCard2-1].classList.add('hide');
+            document.querySelectorAll(".card2")[k].classList.remove('hide');
+            document.querySelectorAll(".card2")[restCard2-1].remove();
+
         }else{
-            
+            document.querySelectorAll(".card2")[k].remove();
+            document.querySelectorAll(".card2")[k].classList.remove('hide')
         }
         if (nbrTeam=="2") {
             
@@ -151,8 +158,7 @@ function find2(time){
         }else{
             countPoint3();
         }
-        document.querySelectorAll(".card2")[k].remove();
-        document.querySelectorAll(".card2")[k].classList.remove('hide')
+        
     }
 }
 
@@ -228,9 +234,12 @@ function find3(time){
     } else {
         if (m>restCard3-2) {
             m=0
-            document.querySelectorAll(".card3")[restCard3-1].classList.add('hide');
+            document.querySelectorAll(".card3")[m].classList.remove('hide');
+            document.querySelectorAll(".card3")[restCard3-1].remove();
+
         }else{
-            
+            document.querySelectorAll(".card3")[m].remove();
+            document.querySelectorAll(".card3")[m].classList.remove('hide')
         }
         if (nbrTeam=="2") {
             
@@ -238,8 +247,7 @@ function find3(time){
         }else{
             countPoint3();
         }
-        document.querySelectorAll(".card3")[m].remove();
-        document.querySelectorAll(".card3")[m].classList.remove('hide')
+        
     }
 }
 
