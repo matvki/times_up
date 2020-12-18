@@ -5,7 +5,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
 
 @section('content')
-
     <p class="hide" id="team1">{{$request->team1}}</p>
     <p class="hide" id="team2">{{$request->team2}}</p>
     <p class="hide" id="team3">{{$request->team3}}</p>

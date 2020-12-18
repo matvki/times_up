@@ -3,6 +3,8 @@
 
 body {
     background-size: contain;
+    background-image: none;
+    background-color: rgb(63, 63, 63);
 }
 main {
     h1 {
@@ -17,7 +19,7 @@ main {
         button {
             outline: none;
             background-color: #F5B16C;
-            color: #2e7effe1;
+            color: #2E7DFF;
             padding: 5px 10px;
             border: none;
             border-radius: 20px;
@@ -44,7 +46,7 @@ main {
                 color: white;
                 tr {
                     &:hover td {
-                        background-color: #639dfade;
+                        background-color: #2E7DFF;
                     }
                     &:nth-child(2n + 0) {
                         background-color: #f5b16cb9;
@@ -54,7 +56,3 @@ main {
         }
     }
 }
-@media(max-width:767px){}
-@media(min-width:768px){}
-@media(min-width:992px){}
-@media(min-width:1200px){}

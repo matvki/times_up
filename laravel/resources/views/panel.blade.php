@@ -17,6 +17,7 @@
             <tr>
                 <th scope="col">Numéro de carte</th>
                 <th scope="col">Carte</th>
+                <th scope="col">Catégorie</th>
             </tr>
         </thead>
         <tbody>
@@ -24,6 +25,7 @@
             <tr>
                 <td>{{ $card->id }}</td>
                 <td>{{ $card->card }}</td>
+                <td><?php include './controllers/panelController.php'; ?></td>
             </tr>
             @endforeach
         </tbody>
