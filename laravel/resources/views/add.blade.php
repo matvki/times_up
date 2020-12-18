@@ -5,9 +5,10 @@
 
 
 @section('content')
-<h1>Ajouter une cartes</h1>
+
 
 <form method="post"action="/login">
+    <h1>Ajouter une cartes</h1>
     @csrf
     <div>
         <label for="name">Le nom de la carte :</label>
