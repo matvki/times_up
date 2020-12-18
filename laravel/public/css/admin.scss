@@ -16,13 +16,26 @@ main{
             font-size: 50px;
             color: rgb(241, 163, 90);
         }
-        div{
-            label{
-                color: rgb(241, 163, 90);
+        form{
+            div{
+                label{
+                    color: rgb(241, 163, 90);
+                }
+                input{
+                    background-color: rgb(241, 163, 90);
+                    border-radius: 20px;
+                    padding: 4px 10px;
+                    border: none;
+                    
+                }
             }
-            input{
-                background-color: rgb(241, 163, 90);
-                border-radius: 20px;
+            input[type=submit]{
+                padding: 5px 10px;
+                margin-top: 10px;
+                border: none;
+                &:hover{
+                    background-color: rgb(241, 156, 76);
+                }
             }
         }
     }

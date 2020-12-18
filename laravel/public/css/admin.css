@@ -22,13 +22,25 @@ main section#panel h2 {
   color: #f1a35a;
 }
 
-main section#panel div label {
+main section#panel form div label {
   color: #f1a35a;
 }
 
-main section#panel div input {
+main section#panel form div input {
   background-color: #f1a35a;
   border-radius: 20px;
+  padding: 4px 10px;
+  border: none;
+}
+
+main section#panel form input[type=submit] {
+  padding: 5px 10px;
+  margin-top: 10px;
+  border: none;
+}
+
+main section#panel form input[type=submit]:hover {
+  background-color: #f19c4c;
 }
 
 @media (max-width: 767px) {
