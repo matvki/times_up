@@ -35,7 +35,7 @@
             <label for="typeCard">Choix du type de cartes :</label>
             <select name="typeCard" id="typeCard">
                 <option value="4">personnages fictifs</option>
-                <option value="1">personalitiées</option>
+                <option value="1">personalitées</option>
                 <option value="2">métiers</option>
                 <option value="3">animaux</option>
             </select>

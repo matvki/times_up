@@ -53,14 +53,14 @@ function find1(time){
             document.querySelectorAll(".card1")[i].remove();
             document.querySelectorAll(".card1")[i].classList.remove('hide')
         }
-        if (nbrTeam=="2") {
-            
-            countPoint2();
-        }else{
-            countPoint3();
-        }
-
         
+        
+    }
+    if (nbrTeam=="2") {
+        
+        countPoint2();
+    }else{
+        countPoint3();
     }
 }
 
@@ -152,13 +152,13 @@ function find2(time){
             document.querySelectorAll(".card2")[k].remove();
             document.querySelectorAll(".card2")[k].classList.remove('hide')
         }
-        if (nbrTeam=="2") {
-            
-            countPoint2();
-        }else{
-            countPoint3();
-        }
         
+    }
+    if (nbrTeam=="2") {
+        
+        countPoint2();
+    }else{
+        countPoint3();
     }
 }
 
@@ -241,13 +241,13 @@ function find3(time){
             document.querySelectorAll(".card3")[m].remove();
             document.querySelectorAll(".card3")[m].classList.remove('hide')
         }
+        
         if (nbrTeam=="2") {
             
             countPoint2();
         }else{
             countPoint3();
         }
-        
     }
 }
 

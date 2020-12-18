@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 body {
   background-size: contain;
+  background-image: none;
+  background-color: #3f3f3f;
 }
 
 main h1 {
@@ -17,8 +19,9 @@ main form {
 }
 
 main form button {
-  background-color: #d8d8d8;
-  box-shadow: 5px 5px 5px black;
+  outline: none;
+  background-color: #F5B16C;
+  color: #2E7DFF;
   padding: 5px 10px;
   border: none;
   border-radius: 20px;
@@ -26,7 +29,7 @@ main form button {
 
 main form button:hover {
   background-color: #2E7DFF;
-  color: honeydew;
+  color: #f5b16ce1;
 }
 
 main div {
@@ -42,7 +45,7 @@ main div table {
 main div table thead {
   max-width: 1070px;
   background-color: #2E7DFF;
-  color: white;
+  color: #F5B16C;
 }
 
 main div table tbody {
@@ -51,7 +54,7 @@ main div table tbody {
 }
 
 main div table tbody tr:hover td {
-  background-color: #639dfa;
+  background-color: #2E7DFF;
 }
 
 main div table tbody tr:nth-child(2n + 0) {

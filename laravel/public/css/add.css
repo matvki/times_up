@@ -22,22 +22,22 @@ main form h1 {
   margin-bottom: 20px;
 }
 
-main form div {
+main form article {
   margin: 50px 0px 50px;
 }
 
-main form div label {
+main form article label {
   font-size: 20px;
 }
 
-main form div input[type=text] {
+main form article input[type=text] {
   margin-left: 10px;
   padding: 7px 10px;
   border-radius: 50px;
   border: 1px solid black;
 }
 
-main form div input[type=text]:focus {
+main form article input[type=text]:focus {
   border-color: #f5b16cd6;
   color: #f5b16c;
 }
