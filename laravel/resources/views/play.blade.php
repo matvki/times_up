@@ -84,7 +84,7 @@ if (($request->selectCard) == "yesCard") { ?>
     </section>
     <section class="hide" id="results" >
         <div class="go-result flex">
-            <h1>Félicitation la partie est Terminer</h1>
+            <h1>Félicitation la partie est terminée</h1>
             <form action="/resultats" method="POST">
                 @csrf
                 <input name="team1" class="result-team1" type="hidden" value="-1">
@@ -173,7 +173,7 @@ if (($request->selectCard) == "yesCard") { ?>
     </section>
     <section class="hide" id="results" >
         <div class="go-result flex">
-            <h1>Félicitation la partie est Terminée</h1>
+            <h1>Félicitation la partie est terminée</h1>
             <form action="/resultats" method="POST">
                 @csrf
                 <input name="team1" class="result-team1" type="hidden" value="-1">
